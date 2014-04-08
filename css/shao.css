@@ -1,0 +1,23 @@
+.leftbar{
+	padding-top:50px;
+	padding-left:5%;
+}
+.center{
+	padding-top:20px;
+}
+iframe{
+	overflow:hidden; 
+	border:none;
+}
+.leftbar img{
+	border-radius: 50px;
+}
+.leftbar ul{
+	padding-left: 0;
+	width: 100px;
+}
+.leftbar ul li{
+	list-style: none;
+	padding-top: 10px;
+	text-align: center;
+}
