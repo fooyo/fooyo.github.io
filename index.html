@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Little To Big</title>
+    <title>Fooyo Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta charset="utf8">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Little To Big</a>
+          <a class="navbar-brand" href="#">Fooyo Studio</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -34,14 +34,35 @@
     <div class="container">
       <!-- expert -->
       <div id="expert" class="banner">
-        <div class="container">
-          <h1>Expert</h1>
-          <p>Professional in iOS development and fluid web design</p>
-        </div>
+          <div class="container">
+            <h1>Expert</h1>
+            <p>Experties in iOS development and Web Development</p>
+          </div>
       </div>
       <div class="row">
-        <div class="col-md-12" role="main">
-          <img src="http://getbootstrap.com/assets/img/devices.png" width="100%">
+        <div id="devices" class="col-md-12">
+          <div>
+            <img src="img/devices.png" width="100%">
+          </div>
+          <div id="clockie" class="app">
+            <a href="https://itunes.apple.com/app/clockie/id823701712">
+              <img title="Clockie" src="img/clockie.jpg">
+            </a>
+          </div>
+          <div id="townsupper" class="app">
+            <a href="https://itunes.apple.com/app/town-supper/id702774593">
+              <img title="Town Supper" src="img/townsupper.jpg">
+            </a>
+          </div>
+          <div id="readpeer" class="app">
+            <a href="http://readpeer.com">
+              <img title="Readpeer" src="img/readpeer.jpeg">
+            </a>
+          </div>
+          <div id="qivi">
+            <iframe src="http://rickqing.com/qivi/" width="100%" height="100%" frameBorder="0">
+            </iframe>
+          </div>
         </div>
       </div>
       <!-- end expert -->
@@ -54,17 +75,7 @@
           </div>
       </div>
       <div class="row">
-         <div id="main">
-          <div id="sequence"></div>
-          <div id="chart">
-            <div id="explanation" style="visibility: hidden;">
-              <span id="percentage"></span><br/>
-              of cost come from this progress
-            </div>
-          </div>
-        </div>
-        <div id="sidebar">
-          <div id="legend" style="visibility: block;"></div>
+        <div id = "pie">
         </div>
       </div>
       <!-- end solution -->
@@ -127,11 +138,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/d3.v3.min.js"></script>
-    <script type="text/javascript" src="js/sequences.js"></script>
-    <script type="text/javascript">
-        // Hack to make this example display correctly in an iframe on bl.ocks.org
-        d3.select(self.frameElement).style("height", "700px");
-    </script> 
+    <script type="text/javascript" src="js/pie.js"></script>
 </body>
 
 </html>

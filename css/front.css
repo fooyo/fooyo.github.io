@@ -5,56 +5,67 @@
 	text-align: left;
 	margin-bottom: 40px;
 	position: relative;
-	color:white;
+	color:#54A4DE;
 	text-shadow: 0 1px 0 rgba(0,0,0,.1);
-	background-color: #6f5499;
-	background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
-	background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
-	background-repeat: repeat-x;
+	background-color:#EBF4FA;
 }
-
-#main {
-  float: left;
-  width: 750px;
+.navbar{
+  background-color:#206BA4;
 }
-
-#sidebar {
-  float: right;
-  width: 100px;
+.navbar-default .navbar-nav>li>a{
+  color:#EBF4FA;
+  font-size:18px;
 }
-
-#sequence {
-  width: 600px;
-  height: 70px;
+.navbar-default .navbar-brand{
+  color:white;
+  color:#EBF4FA;
+  font-size:24px;
 }
-
-#legend {
-  padding: 10px 0 0 3px;
-}
-
-#sequence text, #legend text {
-  font-weight: 600;
-  fill: #fff;
-}
-
-#chart {
+#pie{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  height: 500px;
+  font-size:24px;
   position: relative;
 }
-
-#chart path {
-  stroke: #fff;
+path.slice{
+  stroke-width:2px;
 }
 
-#explanation {
+polyline{
+  opacity: .3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+#devices{
+  margin-bottom: 100px;
+}
+.app{
+  position:absolute;
+  width: 10%;
+  height: 10%;
+}
+.app a img{
+  width: 100%;
+  border-radius: 15px;
+}
+#readpeer{
+  top: 77%;
+  left: 33%;
+}
+#townsupper{
+  top: 54%;
+  left: 5%;
+}
+#clockie{
+  top: 11%;
+  left: 32%;
+}
+#qivi{
   position: absolute;
-  top: 260px;
-  left: 305px;
-  width: 140px;
-  text-align: center;
-  color: #666;
-  z-index: -1;
-}
-
-#percentage {
-  font-size: 2.5em;
+  left: 46%;
+  top: 36%;
+  width: 47%;
+  height: 210px;
 }
