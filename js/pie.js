@@ -10,8 +10,8 @@ svg.append("g")
 svg.append("g")
 	.attr("class", "lines");
 
-var width = 960,
-    height = 450,
+var width = $(window).width(),
+    height = width*0.4,
 	radius = Math.min(width, height) / 2;
 
 var pie = d3.layout.pie()
@@ -28,7 +28,7 @@ var outerArc = d3.svg.arc()
 	.innerRadius(radius * 0.9)
 	.outerRadius(radius * 0.9);
 
-svg.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+svg.attr("transform", "translate(" + width / 3 + "," + height / 2 + ")");
 
 var key = function(d){ return d.data.label; };
 

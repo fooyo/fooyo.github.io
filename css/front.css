@@ -1,15 +1,4 @@
-.banner{
-	padding-top: 60px;
-	padding-bottom: 60px;
-	font-size: 24px;
-	text-align: left;
-	margin-bottom: 40px;
-	position: relative;
-	color:#54A4DE;
-	text-shadow: 0 1px 0 rgba(0,0,0,.1);
-	background-color:#EBF4FA;
-}
-.navbar{
+/*.navbar{
   background-color:#206BA4;
 }
 .navbar-default .navbar-nav>li>a{
@@ -20,10 +9,10 @@
   color:white;
   color:#EBF4FA;
   font-size:24px;
-}
+}*/
 #pie{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  width: 960px;
+  width: 100%;
   height: 500px;
   font-size:24px;
   position: relative;
@@ -38,8 +27,11 @@ polyline{
   stroke-width: 2px;
   fill: none;
 }
-#devices{
-  margin-bottom: 100px;
+
+.slide{
+  padding-top:100px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px;
 }
 .app{
   position:absolute;
