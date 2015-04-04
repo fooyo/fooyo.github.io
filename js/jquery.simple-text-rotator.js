@@ -20,7 +20,7 @@
 	};
 	
 	$.fx.step.textShadowBlur = function(fx) {
-    $(fx.elem).prop('textShadowBlur', fx.now).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px black'});
+    //$(fx.elem).prop('textShadowBlur', fx.now).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px black'});
   };
 	
   $.fn.textrotator = function(options){

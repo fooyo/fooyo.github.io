@@ -14,8 +14,11 @@
 	text-align: center;
 	font-size: 0;
 	margin-top: 50px;
-	-webkit-filter: url("#goo");
-	filter: url("../index.html#goo");
+    filter: url("../images/blur.svg#goo");
+    -webkit-filter: url("../images/blur.svg#goo");
+    -moz-filter: url("../images/blur.svg#goo");
+    -o-filter: url("../images/blur.svg#goo");
+    -ms-filter: url("../images/blur.svg#goo");
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 }
@@ -63,7 +66,7 @@
 .pagination-item {
 	position: absolute;
 	left: 50%;
-	margin-left: -200px;
+	margin-left: -160px;
 	font-size: 0;
 	border-radius: 5px;
 	/*border: 7px solid #fff;*/
