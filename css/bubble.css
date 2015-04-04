@@ -3,10 +3,11 @@
   position: absolute;
   left: 0;
   right: 0;
+  height: 50%;
   bottom: 0;
 }
 
-/* line 8, ../scss/bubble.scss */
+/* line 9, ../scss/bubble.scss */
 .bubble {
   position: absolute;
   width: 100px;
@@ -19,7 +20,7 @@
   margin-left: -50px;
   border-radius: 50%;
 }
-/* line 19, ../scss/bubble.scss */
+/* line 20, ../scss/bubble.scss */
 .bubble:hover {
   width: 200px;
   opacity: 1;
@@ -34,7 +35,7 @@
   -o-animation-play-state: paused !important;
   animation-play-state: paused !important;
 }
-/* line 33, ../scss/bubble.scss */
+/* line 34, ../scss/bubble.scss */
 .bubble.x1 {
   left: 80%;
   background-color: #366695;
@@ -46,7 +47,7 @@
   -moz-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
   -o-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
 }
-/* line 44, ../scss/bubble.scss */
+/* line 45, ../scss/bubble.scss */
 .bubble.x2 {
   background-color: #47dccb;
   left: 10%;
@@ -58,7 +59,7 @@
   -moz-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
   -o-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
 }
-/* line 55, ../scss/bubble.scss */
+/* line 56, ../scss/bubble.scss */
 .bubble.x3 {
   background-color: #40abb4;
   left: 20%;
@@ -70,7 +71,7 @@
   -moz-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
   -o-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
 }
-/* line 66, ../scss/bubble.scss */
+/* line 67, ../scss/bubble.scss */
 .bubble.x4 {
   background-color: #95f4e9;
   left: 30%;
@@ -82,7 +83,7 @@
   -moz-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
   -o-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
-/* line 77, ../scss/bubble.scss */
+/* line 78, ../scss/bubble.scss */
 .bubble.x5 {
   background-color: #95f4e9;
   left: 40%;
@@ -94,7 +95,7 @@
   -moz-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
   -o-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
 }
-/* line 88, ../scss/bubble.scss */
+/* line 89, ../scss/bubble.scss */
 .bubble.x6 {
   background-color: #95f4e9;
   left: 50%;
@@ -106,7 +107,7 @@
   -moz-animation: moveclouds 10s linear infinite, sideWays 1s ease-in-out infinite alternate;
   -o-animation: moveclouds 10s linear infinite, sideWays 1s ease-in-out infinite alternate;
 }
-/* line 99, ../scss/bubble.scss */
+/* line 100, ../scss/bubble.scss */
 .bubble.x7 {
   background-color: #95f4e9;
   left: 60%;
@@ -118,7 +119,7 @@
   -moz-animation: moveclouds 20s linear infinite, sideWays 1s ease-in-out infinite alternate;
   -o-animation: moveclouds 20s linear infinite, sideWays 1s ease-in-out infinite alternate;
 }
-/* line 110, ../scss/bubble.scss */
+/* line 111, ../scss/bubble.scss */
 .bubble.x8 {
   background-color: #95f4e9;
   left: 70%;
