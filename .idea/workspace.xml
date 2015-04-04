@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adea6c5-c8a3-4679-a95e-fe80340a8d79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/front.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clockie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/devices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/readpeer.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/townsupper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/d3.v3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/pie.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2/index.html" afterPath="$PROJECT_DIR$/v2/index.html" />
     </list>
     <ignored path="fooyo.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="2145">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state vertical-scroll-proportion="2.9846938" vertical-offset="0" max-vertical-offset="2145">
+              <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -248,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="2145">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state vertical-scroll-proportion="2.9846938" vertical-offset="0" max-vertical-offset="2145">
+          <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
           <folding />
         </state>
       </provider>
