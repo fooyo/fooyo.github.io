@@ -15,10 +15,10 @@
 	font-size: 0;
 	margin-top: 50px;
     filter: url("../images/blur.svg#goo");
-    -webkit-filter: url("../images/blur.svg#goo");
-    -moz-filter: url("../images/blur.svg#goo");
-    -o-filter: url("../images/blur.svg#goo");
-    -ms-filter: url("../images/blur.svg#goo");
+    -webkit-filter: url("#goo");
+    -moz-filter: url("#goo");
+    -o-filter: url("#goo");
+    -ms-filter: url("#goo");
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 }
@@ -27,13 +27,13 @@
 .pagination-current {
 	position: relative;
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 14px;
+	height: 14px;
 	padding: 0;
-	line-height: 32px;
+	line-height: 14px;
 	background: #94F3E8;
 	border-radius: 50%;
-	margin: 0 13px;
+	margin: 0 6px;
 	border: none;
 	outline: none;
 	font-size: 16px;

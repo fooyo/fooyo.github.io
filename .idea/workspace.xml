@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adea6c5-c8a3-4679-a95e-fe80340a8d79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/css/jquery.fullPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/css/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/css/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/css/simpletextrotator.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/all.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/case.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/cross.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/sns.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/toggle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/wave.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/images/web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/js/TweenMax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/js/jquery.fullPage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/js/jquery.simple-text-rotator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/scss/jquery.fullPage.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/scss/menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/scss/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/vendors/jquery.easings.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/vendors/jquery.slimscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v3/vendors/jquery.slimscroll.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pagination.css" afterPath="$PROJECT_DIR$/css/pagination.css" />
     </list>
     <ignored path="fooyo.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.5" vertical-offset="6852" max-vertical-offset="7440">
-              <caret line="488" column="6" selection-start-line="488" selection-start-column="6" selection-end-line="488" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.49376115" vertical-offset="1793" max-vertical-offset="7440">
+              <caret line="138" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -94,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33208954" vertical-offset="497" max-vertical-offset="3195">
+            <state vertical-scroll-proportion="-8.881579" vertical-offset="0" max-vertical-offset="3195">
               <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding />
             </state>
@@ -109,6 +82,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="8.571428" vertical-offset="420" max-vertical-offset="1725">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/pagination.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1260">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -141,9 +124,10 @@
         <option value="$PROJECT_DIR$/v3/css/fission.css" />
         <option value="$PROJECT_DIR$/v3/css/pagination.css" />
         <option value="$PROJECT_DIR$/v3/scss/fission.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/fission.scss" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/css/pagination.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -376,14 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.25" vertical-offset="1557" max-vertical-offset="2145">
-          <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/blur.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -392,18 +368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.5" vertical-offset="6852" max-vertical-offset="7440">
-          <caret line="488" column="6" selection-start-line="488" selection-start-column="6" selection-end-line="488" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/fission.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="8355">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="-8.881579" vertical-offset="0" max-vertical-offset="3195">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -416,6 +384,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/v2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.25" vertical-offset="1557" max-vertical-offset="2145">
+          <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.571428" vertical-offset="420" max-vertical-offset="1725">
@@ -424,10 +400,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/scss/fission.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33208954" vertical-offset="497" max-vertical-offset="3195">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="8355">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pagination.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1260">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49376115" vertical-offset="1793" max-vertical-offset="7440">
+          <caret line="138" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
           <folding />
         </state>
       </provider>
