@@ -83,7 +83,22 @@
                 slideSelector: '.slide',
 
                 //events
-                onLeave: function(index, nextIndex, direction){},
+                onLeave: function(index, nextIndex, direction){
+                    var leavingSection = $(this);
+
+                    //after leaving section 2
+                    if(index == 2 && direction =='down'){
+                        $(".menu-toggle-button").trigger("mousedown");
+                    }
+
+                    if(index == 3){
+                        $(".menu-toggle-button").trigger("mousedown");
+                    }
+
+                    else if(index == 4 && direction == 'up'){
+                        $(".menu-toggle-button").trigger("mousedown");
+                    }
+                },
                 afterLoad: function(anchorLink, index){},
                 afterRender: function(){},
                 afterResize: function(){},
