@@ -3,42 +3,95 @@
   position: absolute;
   left: 0;
   right: 0;
-  height: 40%;
+  top: 0;
+  height: 100%;
   bottom: 0;
 }
 
-/* line 9, ../scss/bubble.scss */
+/* line 10, ../scss/bubble.scss */
 .bubble {
   position: absolute;
-  width: 100px;
+  display: table;
+}
+/* line 13, ../scss/bubble.scss */
+.bubble .alphabet {
+  display: inline-block;
+  line-height: 100px;
   text-align: center;
+  width: 100px;
   font-size: 36px;
   color: #fff;
-  line-height: 100px;
   height: 100px;
-  margin-top: -50px;
-  margin-left: -50px;
   border-radius: 50%;
+  z-index: 100;
+  position: relative;
 }
-/* line 20, ../scss/bubble.scss */
+/* line 25, ../scss/bubble.scss */
+.bubble .more {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-top: -240px;
+  margin-left: 80px;
+}
+/* line 32, ../scss/bubble.scss */
+.bubble .more .description {
+  display: none;
+}
+/* line 36, ../scss/bubble.scss */
 .bubble:hover {
-  width: 200px;
-  opacity: 1;
-  margin-top: -100px;
-  margin-left: -100px;
-  line-height: 200px;
-  height: 200px;
-  background-image: url("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t5/1117684_100000757737981_1020608394_q.jpg");
-  background-size: 200px 200px;
+  opacity: 1 !important;
   -webkit-animation-play-state: paused !important;
   -moz-animation-play-state: paused !important;
   -o-animation-play-state: paused !important;
   animation-play-state: paused !important;
 }
-/* line 34, ../scss/bubble.scss */
+/* line 38, ../scss/bubble.scss */
+.bubble:hover .more {
+  display: table !important;
+  -webkit-animation: blow 1s ease-in-out;
+  -moz-animation: blow 1s ease-in-out;
+  -o-animation: blow 1s ease-in-out;
+  animation: blow 1s ease-in-out;
+}
+/* line 45, ../scss/bubble.scss */
+.bubble:hover .description {
+  display: table-cell !important;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  line-height: 30px;
+  color: #fff;
+  -webkit-animation: blow 1s ease-in-out;
+  -moz-animation: blow 1s ease-in-out;
+  -o-animation: blow 1s ease-in-out;
+  animation: blow 1s ease-in-out;
+}
+/* line 58, ../scss/bubble.scss */
+.bubble:hover .description .name {
+  font-size: 14px;
+}
+/* line 61, ../scss/bubble.scss */
+.bubble:hover .description .detail {
+  padding: 20px;
+  font-size: 12px;
+}
+/* line 66, ../scss/bubble.scss */
+.bubble:hover .alphabet {
+  width: 120px;
+  height: 120px;
+  margin-left: -20px;
+  margin-top: -20px;
+  text-indent: -9999px;
+  mix-blend-mode: multiply;
+  background-size: 120px 120px;
+}
+/* line 80, ../scss/bubble.scss */
 .bubble.x1 {
-  left: 80%;
-  background-color: #366695;
+  left: 0;
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   transform: scale(0.9);
@@ -47,9 +100,17 @@
   -moz-animation: moveclouds 15s linear infinite, sideWays 10s ease-in-out infinite alternate;
   -o-animation: moveclouds 15s linear infinite, sideWays 10s ease-in-out infinite alternate;
 }
-/* line 45, ../scss/bubble.scss */
+/* line 89, ../scss/bubble.scss */
+.bubble.x1 .alphabet,
+.bubble.x1 .description {
+  background-color: #366695;
+}
+/* line 93, ../scss/bubble.scss */
+.bubble.x1:hover .alphabet {
+  background-image: url("../images/avatars/s.jpg");
+}
+/* line 97, ../scss/bubble.scss */
 .bubble.x2 {
-  background-color: #47dccb;
   left: 10%;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
@@ -59,9 +120,17 @@
   -moz-animation: moveclouds 25s linear infinite, sideWays 7s ease-in-out infinite alternate;
   -o-animation: moveclouds 25s linear infinite, sideWays 7s ease-in-out infinite alternate;
 }
-/* line 56, ../scss/bubble.scss */
+/* line 106, ../scss/bubble.scss */
+.bubble.x2 .alphabet,
+.bubble.x2 .description {
+  background-color: #47dccb;
+}
+/* line 110, ../scss/bubble.scss */
+.bubble.x2:hover .alphabet {
+  background-image: url("../images/avatars/y.jpg");
+}
+/* line 114, ../scss/bubble.scss */
 .bubble.x3 {
-  background-color: #40abb4;
   left: 20%;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -71,9 +140,17 @@
   -moz-animation: moveclouds 20s linear infinite, sideWays 15s ease-in-out infinite alternate;
   -o-animation: moveclouds 20s linear infinite, sideWays 15s ease-in-out infinite alternate;
 }
-/* line 67, ../scss/bubble.scss */
+/* line 123, ../scss/bubble.scss */
+.bubble.x3 .alphabet,
+.bubble.x3 .description {
+  background-color: #40abb4;
+}
+/* line 127, ../scss/bubble.scss */
+.bubble.x3:hover .alphabet {
+  background-image: url("../images/avatars/q.jpg");
+}
+/* line 131, ../scss/bubble.scss */
 .bubble.x4 {
-  background-color: #95f4e9;
   left: 30%;
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
@@ -83,9 +160,17 @@
   -moz-animation: moveclouds 18s linear infinite, sideWays 20s ease-in-out infinite alternate;
   -o-animation: moveclouds 18s linear infinite, sideWays 20s ease-in-out infinite alternate;
 }
-/* line 78, ../scss/bubble.scss */
-.bubble.x5 {
+/* line 140, ../scss/bubble.scss */
+.bubble.x4 .alphabet,
+.bubble.x4 .description {
   background-color: #95f4e9;
+}
+/* line 144, ../scss/bubble.scss */
+.bubble.x4:hover .alphabet {
+  background-image: url("../images/avatars/c.jpg");
+}
+/* line 148, ../scss/bubble.scss */
+.bubble.x5 {
   left: 40%;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -95,9 +180,17 @@
   -moz-animation: moveclouds 40s linear infinite, sideWays 12s ease-in-out infinite alternate;
   -o-animation: moveclouds 40s linear infinite, sideWays 12s ease-in-out infinite alternate;
 }
-/* line 89, ../scss/bubble.scss */
+/* line 157, ../scss/bubble.scss */
+.bubble.x5 .alphabet,
+.bubble.x5 .description {
+  background-color: #40abb4;
+}
+/* line 161, ../scss/bubble.scss */
+.bubble.x5:hover .alphabet {
+  background-image: url("../images/avatars/m.jpg");
+}
+/* line 165, ../scss/bubble.scss */
 .bubble.x6 {
-  background-color: #95f4e9;
   left: 50%;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -107,9 +200,17 @@
   -moz-animation: moveclouds 20s linear infinite, sideWays 8s ease-in-out infinite alternate;
   -o-animation: moveclouds 20s linear infinite, sideWays 8s ease-in-out infinite alternate;
 }
-/* line 100, ../scss/bubble.scss */
-.bubble.x7 {
+/* line 174, ../scss/bubble.scss */
+.bubble.x6 .alphabet,
+.bubble.x6 .description {
   background-color: #95f4e9;
+}
+/* line 178, ../scss/bubble.scss */
+.bubble.x6:hover .alphabet {
+  background-image: url("../images/avatars/k.jpg");
+}
+/* line 182, ../scss/bubble.scss */
+.bubble.x7 {
   left: 60%;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -119,9 +220,17 @@
   -moz-animation: moveclouds 30s linear infinite, sideWays 12s ease-in-out infinite alternate;
   -o-animation: moveclouds 30s linear infinite, sideWays 12s ease-in-out infinite alternate;
 }
-/* line 111, ../scss/bubble.scss */
+/* line 191, ../scss/bubble.scss */
+.bubble.x7 .alphabet,
+.bubble.x7 .description {
+  background-color: #366695;
+}
+/* line 195, ../scss/bubble.scss */
+.bubble.x7:hover .alphabet {
+  background-image: url("../images/avatars/j.jpg");
+}
+/* line 199, ../scss/bubble.scss */
 .bubble.x8 {
-  background-color: #95f4e9;
   left: 70%;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -131,13 +240,22 @@
   -moz-animation: moveclouds 30s linear infinite, sideWays 20s ease-in-out infinite alternate;
   -o-animation: moveclouds 30s linear infinite, sideWays 20s ease-in-out infinite alternate;
 }
+/* line 208, ../scss/bubble.scss */
+.bubble.x8 .alphabet,
+.bubble.x8 .description {
+  background-color: #95f4e9;
+}
+/* line 212, ../scss/bubble.scss */
+.bubble.x8:hover .alphabet {
+  background-image: url("../images/avatars/z.jpg");
+}
 
 @-webkit-keyframes moveclouds {
   0% {
-    top: 500px;
+    top: 100%;
   }
   100% {
-    top: -500px;
+    top: 0;
   }
 }
 @-webkit-keyframes sideWays {
@@ -145,15 +263,36 @@
     margin-left: 0px;
   }
   100% {
-    margin-left: 50px;
+    margin-left: 100px;
+  }
+}
+@-webkit-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  80% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
   }
 }
 @-moz-keyframes moveclouds {
   0% {
-    top: 500px;
+    top: 100%;
   }
   100% {
-    top: -500px;
+    top: 0;
   }
 }
 @-moz-keyframes sideWays {
@@ -161,15 +300,36 @@
     margin-left: 0px;
   }
   100% {
-    margin-left: 50px;
+    margin-left: 100px;
+  }
+}
+@-moz-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  80% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
   }
 }
 @-o-keyframes moveclouds {
   0% {
-    top: 500px;
+    top: 100%;
   }
   100% {
-    top: -500px;
+    top: 0;
   }
 }
 @-o-keyframes sideWays {
@@ -177,6 +337,27 @@
     margin-left: 0px;
   }
   100% {
-    margin-left: 50px;
+    margin-left: 100px;
+  }
+}
+@-o-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  80% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
   }
 }
