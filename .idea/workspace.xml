@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adea6c5-c8a3-4679-a95e-fe80340a8d79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bubble.css" afterPath="$PROJECT_DIR$/css/bubble.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/bubble.scss" afterPath="$PROJECT_DIR$/scss/bubble.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fooyo.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6683673">
-              <caret line="436" column="82" selection-start-line="436" selection-start-column="82" selection-end-line="436" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.40106952">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -780,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6683673">
-          <caret line="436" column="82" selection-start-line="436" selection-start-column="82" selection-end-line="436" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.40106952">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
