@@ -86,10 +86,9 @@
   margin-left: -20px;
   margin-top: -20px;
   text-indent: -9999px;
-  mix-blend-mode: multiply;
   background-size: 120px 120px;
 }
-/* line 80, ../scss/bubble.scss */
+/* line 79, ../scss/bubble.scss */
 .bubble.x1 {
   left: 0;
   -webkit-transform: scale(0.9);
@@ -100,16 +99,16 @@
   -moz-animation: moveclouds 15s linear infinite, sideWays 10s ease-in-out infinite alternate;
   -o-animation: moveclouds 15s linear infinite, sideWays 10s ease-in-out infinite alternate;
 }
-/* line 89, ../scss/bubble.scss */
+/* line 88, ../scss/bubble.scss */
 .bubble.x1 .alphabet,
 .bubble.x1 .description {
   background-color: #366695;
 }
-/* line 93, ../scss/bubble.scss */
+/* line 92, ../scss/bubble.scss */
 .bubble.x1:hover .alphabet {
   background-image: url("../images/avatars/s.jpg");
 }
-/* line 97, ../scss/bubble.scss */
+/* line 96, ../scss/bubble.scss */
 .bubble.x2 {
   left: 10%;
   -webkit-transform: scale(0.6);
@@ -120,16 +119,16 @@
   -moz-animation: moveclouds 25s linear infinite, sideWays 7s ease-in-out infinite alternate;
   -o-animation: moveclouds 25s linear infinite, sideWays 7s ease-in-out infinite alternate;
 }
-/* line 106, ../scss/bubble.scss */
+/* line 105, ../scss/bubble.scss */
 .bubble.x2 .alphabet,
 .bubble.x2 .description {
   background-color: #47dccb;
 }
-/* line 110, ../scss/bubble.scss */
+/* line 109, ../scss/bubble.scss */
 .bubble.x2:hover .alphabet {
   background-image: url("../images/avatars/y.jpg");
 }
-/* line 114, ../scss/bubble.scss */
+/* line 113, ../scss/bubble.scss */
 .bubble.x3 {
   left: 20%;
   -webkit-transform: scale(0.8);
@@ -140,16 +139,16 @@
   -moz-animation: moveclouds 20s linear infinite, sideWays 15s ease-in-out infinite alternate;
   -o-animation: moveclouds 20s linear infinite, sideWays 15s ease-in-out infinite alternate;
 }
-/* line 123, ../scss/bubble.scss */
+/* line 122, ../scss/bubble.scss */
 .bubble.x3 .alphabet,
 .bubble.x3 .description {
   background-color: #40abb4;
 }
-/* line 127, ../scss/bubble.scss */
+/* line 126, ../scss/bubble.scss */
 .bubble.x3:hover .alphabet {
   background-image: url("../images/avatars/q.jpg");
 }
-/* line 131, ../scss/bubble.scss */
+/* line 130, ../scss/bubble.scss */
 .bubble.x4 {
   left: 30%;
   -webkit-transform: scale(0.75);
@@ -160,16 +159,16 @@
   -moz-animation: moveclouds 18s linear infinite, sideWays 20s ease-in-out infinite alternate;
   -o-animation: moveclouds 18s linear infinite, sideWays 20s ease-in-out infinite alternate;
 }
-/* line 140, ../scss/bubble.scss */
+/* line 139, ../scss/bubble.scss */
 .bubble.x4 .alphabet,
 .bubble.x4 .description {
   background-color: #95f4e9;
 }
-/* line 144, ../scss/bubble.scss */
+/* line 143, ../scss/bubble.scss */
 .bubble.x4:hover .alphabet {
   background-image: url("../images/avatars/c.jpg");
 }
-/* line 148, ../scss/bubble.scss */
+/* line 147, ../scss/bubble.scss */
 .bubble.x5 {
   left: 40%;
   -webkit-transform: scale(0.8);
@@ -180,16 +179,16 @@
   -moz-animation: moveclouds 40s linear infinite, sideWays 12s ease-in-out infinite alternate;
   -o-animation: moveclouds 40s linear infinite, sideWays 12s ease-in-out infinite alternate;
 }
-/* line 157, ../scss/bubble.scss */
+/* line 156, ../scss/bubble.scss */
 .bubble.x5 .alphabet,
 .bubble.x5 .description {
   background-color: #40abb4;
 }
-/* line 161, ../scss/bubble.scss */
+/* line 160, ../scss/bubble.scss */
 .bubble.x5:hover .alphabet {
   background-image: url("../images/avatars/m.jpg");
 }
-/* line 165, ../scss/bubble.scss */
+/* line 164, ../scss/bubble.scss */
 .bubble.x6 {
   left: 50%;
   -webkit-transform: scale(0.8);
@@ -200,16 +199,16 @@
   -moz-animation: moveclouds 20s linear infinite, sideWays 8s ease-in-out infinite alternate;
   -o-animation: moveclouds 20s linear infinite, sideWays 8s ease-in-out infinite alternate;
 }
-/* line 174, ../scss/bubble.scss */
+/* line 173, ../scss/bubble.scss */
 .bubble.x6 .alphabet,
 .bubble.x6 .description {
   background-color: #95f4e9;
 }
-/* line 178, ../scss/bubble.scss */
+/* line 177, ../scss/bubble.scss */
 .bubble.x6:hover .alphabet {
   background-image: url("../images/avatars/k.jpg");
 }
-/* line 182, ../scss/bubble.scss */
+/* line 181, ../scss/bubble.scss */
 .bubble.x7 {
   left: 60%;
   -webkit-transform: scale(0.8);
@@ -220,16 +219,16 @@
   -moz-animation: moveclouds 30s linear infinite, sideWays 12s ease-in-out infinite alternate;
   -o-animation: moveclouds 30s linear infinite, sideWays 12s ease-in-out infinite alternate;
 }
-/* line 191, ../scss/bubble.scss */
+/* line 190, ../scss/bubble.scss */
 .bubble.x7 .alphabet,
 .bubble.x7 .description {
   background-color: #366695;
 }
-/* line 195, ../scss/bubble.scss */
+/* line 194, ../scss/bubble.scss */
 .bubble.x7:hover .alphabet {
   background-image: url("../images/avatars/j.jpg");
 }
-/* line 199, ../scss/bubble.scss */
+/* line 198, ../scss/bubble.scss */
 .bubble.x8 {
   left: 70%;
   -webkit-transform: scale(0.8);
@@ -240,12 +239,12 @@
   -moz-animation: moveclouds 30s linear infinite, sideWays 20s ease-in-out infinite alternate;
   -o-animation: moveclouds 30s linear infinite, sideWays 20s ease-in-out infinite alternate;
 }
-/* line 208, ../scss/bubble.scss */
+/* line 207, ../scss/bubble.scss */
 .bubble.x8 .alphabet,
 .bubble.x8 .description {
   background-color: #95f4e9;
 }
-/* line 212, ../scss/bubble.scss */
+/* line 211, ../scss/bubble.scss */
 .bubble.x8:hover .alphabet {
   background-image: url("../images/avatars/z.jpg");
 }
