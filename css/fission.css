@@ -105,7 +105,7 @@
     transform: scale(0.6) translate(-85px, 85px);
   }
   33% {
-    transform: scale(0.6) translate(85px, -85px);
+    transform: scale(0.6) translate(85px, 85px);
   }
   66% {
     transform: scale(0.6) translate(-85px, 85px);
