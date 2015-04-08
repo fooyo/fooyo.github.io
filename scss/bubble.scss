@@ -140,9 +140,11 @@
     -webkit-animation: moveclouds 18s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
     -moz-animation: moveclouds 18s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
     -o-animation: moveclouds 18s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
-    .alphabet,
-    .description{
+    .alphabet{
       background-color:#95f4e9;
+    }
+    .description{
+      background-color:#40abb4;
     }
     &:hover .alphabet{
       background-image: url("../images/avatars/c.jpg");
@@ -180,8 +182,21 @@
     .description{
       background-color:#47dccb;
     }
+    .description{
+      -webkit-animation: blow-right 1s ease-in-out;
+      -moz-animation: blow-right 1s ease-in-out;
+      -o-animation: blow-right 1s ease-in-out;
+      animation: blow-right 1s ease-in-out;
+    }
     &:hover .alphabet{
       background-image: url("../images/avatars/k.jpg");
+    }
+    .more{
+      margin-left: -280px;
+      -webkit-animation: blow-right 1s ease-in-out;
+      -moz-animation: blow-right 1s ease-in-out;
+      -o-animation: blow-right 1s ease-in-out;
+      animation: blow-right 1s ease-in-out;
     }
   }
   &.x7{
@@ -195,11 +210,24 @@
     -moz-animation: moveclouds 30s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
     -o-animation: moveclouds 30s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
     .alphabet,
+    .description {
+      background-color: #366695;
+    }
     .description{
-      background-color:#366695;
+      -webkit-animation: blow-right 1s ease-in-out;
+      -moz-animation: blow-right 1s ease-in-out;
+      -o-animation: blow-right 1s ease-in-out;
+      animation: blow-right 1s ease-in-out;
     }
     &:hover .alphabet{
       background-image: url("../images/avatars/j.jpg");
+    }
+    .more{
+      margin-left: -280px;
+      -webkit-animation: blow-right 1s ease-in-out;
+      -moz-animation: blow-right 1s ease-in-out;
+      -o-animation: blow-right 1s ease-in-out;
+      animation: blow-right 1s ease-in-out;
     }
   }
   &.x8{
@@ -212,9 +240,22 @@
     -webkit-animation: moveclouds 30s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
     -moz-animation: moveclouds 30s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
     -o-animation: moveclouds 30s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
-    .alphabet,
-    .description{
+    .alphabet{
       background-color:#95f4e9;
+    }
+    .description{
+      background-color:#40abb4;
+      -webkit-animation: blow-right 1s ease-in-out;
+      -moz-animation: blow-right 1s ease-in-out;
+      -o-animation: blow-right 1s ease-in-out;
+      animation: blow-right 1s ease-in-out;
+    }
+    .more{
+      margin-left: -280px;
+      -webkit-animation: blow-right 1s ease-in-out;
+      -moz-animation: blow-right 1s ease-in-out;
+      -o-animation: blow-right 1s ease-in-out;
+      animation: blow-right 1s ease-in-out;
     }
     &:hover .alphabet{
       background-image: url("../images/avatars/z.jpg");
@@ -261,6 +302,27 @@
     color: #fff;
   }
 }
+@-webkit-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  80%{
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -280px;
+    color: #fff;
+  }
+}
 
 @-moz-keyframes moveclouds {
   0% {
@@ -302,6 +364,27 @@
     color: #fff;
   }
 }
+@-moz-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  80%{
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -280px;
+    color: #fff;
+  }
+}
 
 @-o-keyframes moveclouds {
   0% {
@@ -340,6 +423,28 @@
     opacity: 1;
     margin-top: -240px;
     margin-left: 80px;
+    color: #fff;
+  }
+}
+
+@-o-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  80%{
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -280px;
     color: #fff;
   }
 }
