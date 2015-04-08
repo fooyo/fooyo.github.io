@@ -55,12 +55,12 @@
       -moz-animation: blow 1s ease-in-out;
       -o-animation: blow 1s ease-in-out;
       animation: blow 1s ease-in-out;
+      padding: 0 20px;
       .name{
         font-size: 14px;
       }
       .detail{
         font-size: 12px;
-        padding: 20px;
       }
     }
     .alphabet{
@@ -131,7 +131,7 @@
     }
   }
   &.x4{
-    left: 30%;
+    left: 0%;
     top: 60%;
     -webkit-transform: scale(0.75);
     -moz-transform: scale(0.75);
@@ -265,7 +265,7 @@
 
 @-webkit-keyframes moveclouds {
   30% {
-    top: 0;
+    top: 0%;
   }
   100% {
     top: 100%;

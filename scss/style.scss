@@ -92,10 +92,26 @@ body{
       width: 200px;
       margin: 0 auto;
       text-align: left;
+      color: #356594;
       position: absolute;
-      bottom: 50px;
-      left: 50%;
-      margin-left: -60px;
+      bottom: 80px;
+      @include calc(left, "50% - 50px");
+    }
+    .icon-next{
+      background: url(../images/arrow.png) no-repeat;
+      width: 56px;
+      height: 19px;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 20px;
+      @include calc(left, "50% - 28px");
+      -webkit-animation: bounce 2s infinite;
+      -moz-animation: bounce 2s infinite;
+      -o-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
   &.aboutUs{
@@ -112,7 +128,7 @@ body{
     }
     .description{
         color: #fff;
-        line-height: 20px;
+        line-height: 24px;
         width: 30%;
         margin: 0 auto;
         text-align: center;
@@ -123,6 +139,12 @@ body{
         margin: 0 auto;
         background: #fff;
         height: 40%;
+    }
+    &:not(.active) .bubble{
+      -webkit-animation-play-state: paused!important;
+      -moz-animation-play-state:paused!important;
+      -o-animation-play-state:paused!important;
+      animation-play-state:paused!important;
     }
   }
   &.services{

@@ -69,15 +69,15 @@
   -moz-animation: blow 1s ease-in-out;
   -o-animation: blow 1s ease-in-out;
   animation: blow 1s ease-in-out;
+  padding: 0 20px;
 }
-/* line 58, ../scss/bubble.scss */
+/* line 59, ../scss/bubble.scss */
 .bubble:hover .description .name {
   font-size: 14px;
 }
-/* line 61, ../scss/bubble.scss */
+/* line 62, ../scss/bubble.scss */
 .bubble:hover .description .detail {
   font-size: 12px;
-  padding: 20px;
 }
 /* line 66, ../scss/bubble.scss */
 .bubble:hover .alphabet {
@@ -153,7 +153,7 @@
 }
 /* line 133, ../scss/bubble.scss */
 .bubble.x4 {
-  left: 30%;
+  left: 0%;
   top: 60%;
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
@@ -307,7 +307,7 @@
 
 @-webkit-keyframes moveclouds {
   30% {
-    top: 0;
+    top: 0%;
   }
   100% {
     top: 100%;

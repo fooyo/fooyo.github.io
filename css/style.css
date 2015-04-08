@@ -103,12 +103,32 @@ body {
   width: 200px;
   margin: 0 auto;
   text-align: left;
+  color: #356594;
   position: absolute;
-  bottom: 50px;
-  left: 50%;
-  margin-left: -60px;
+  bottom: 80px;
+  left: -webkit-calc(50% - 50px);
+  left: calc(50% - 50px);
 }
-/* line 101, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
+.section.home .icon-next {
+  background: url(../images/arrow.png) no-repeat;
+  width: 56px;
+  height: 19px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: -webkit-calc(50% - 28px);
+  left: calc(50% - 28px);
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+/* line 112, ../scss/style.scss */
+.section.home .icon-next:hover {
+  cursor: pointer;
+}
+/* line 117, ../scss/style.scss */
 .section.aboutUs {
   background: -webkit-linear-gradient(#94F3E8, #7BCDD2);
   /* For Safari 5.1 to 6.0 */
@@ -119,7 +139,7 @@ body {
   background: linear-gradient(#94F3E8, #7BCDD2);
   /* Standard syntax */
 }
-/* line 106, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .section.aboutUs .upper-line {
   height: 30px;
   width: 1px;
@@ -127,15 +147,15 @@ body {
   margin: 0 auto;
   background: #fff;
 }
-/* line 113, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .section.aboutUs .description {
   color: #fff;
-  line-height: 20px;
+  line-height: 24px;
   width: 30%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 120, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .section.aboutUs .lower-line {
   width: 1px;
   padding-top: 150px;
@@ -143,7 +163,14 @@ body {
   background: #fff;
   height: 40%;
 }
-/* line 128, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
+.section.aboutUs:not(.active) .bubble {
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -o-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+/* line 150, ../scss/style.scss */
 .section.services {
   background: -webkit-linear-gradient(#7BCDD2, #61A6BB);
   /* For Safari 5.1 to 6.0 */
@@ -154,11 +181,11 @@ body {
   background: linear-gradient(#7BCDD2, #61A6BB);
   /* Standard syntax */
 }
-/* line 133, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .section.services .line {
   height: 100%;
 }
-/* line 137, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 .section.works {
   background: -webkit-linear-gradient(#61A6BB, #437AA1);
   /* For Safari 5.1 to 6.0 */
@@ -169,21 +196,21 @@ body {
   background: linear-gradient(#61A6BB, #437AA1);
   /* Standard syntax */
 }
-/* line 142, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 .section.works .case {
   background: #46DBCA;
   width: 400px;
   height: 400px;
   border-radius: 50%;
 }
-/* line 148, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 .section.works .upper-line {
   width: 1px;
   height: 20%;
   margin: 0 auto;
   background: #fff;
 }
-/* line 154, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 .section.works .lower-line {
   width: 1px;
   height: 5%;
@@ -192,7 +219,7 @@ body {
   left: 50%;
   background-color: #fff;
 }
-/* line 163, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
 .section.contact {
   background: -webkit-linear-gradient(#437AA1, #356594);
   /* For Safari 5.1 to 6.0 */
@@ -203,7 +230,7 @@ body {
   background: linear-gradient(#437AA1, #356594);
   /* Standard syntax */
 }
-/* line 168, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .section.contact .top-line {
   width: 1px;
   height: 30%;
@@ -212,7 +239,7 @@ body {
   top: 0;
   left: 50%;
 }
-/* line 176, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .section.contact .dot {
   margin: 0 auto;
   position: absolute;
@@ -221,7 +248,7 @@ body {
   top: -webkit-calc(50% - 7px);
   top: calc(50% - 7px);
 }
-/* line 182, ../scss/style.scss */
+/* line 204, ../scss/style.scss */
 .section.contact .lower-line {
   width: 1px;
   height: 20%;
@@ -231,7 +258,7 @@ body {
   top: 50%;
   background: #fff;
 }
-/* line 191, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .section.contact .sns {
   width: 100%;
   text-align: center;
@@ -240,13 +267,13 @@ body {
   top: 70%;
   z-index: 1000;
 }
-/* line 198, ../scss/style.scss */
+/* line 220, ../scss/style.scss */
 .section.contact .sns a {
   text-decoration: none;
   line-height: 30px;
   color: #fff;
 }
-/* line 202, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 .section.contact .sns a.icon {
   display: inline-block;
   curosr: pointer;
@@ -254,31 +281,31 @@ body {
   height: 40px;
   background: url(../images/sns.png);
 }
-/* line 208, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 .section.contact .sns a.icon.li {
   background-position: -34px 0;
 }
-/* line 211, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 .section.contact .sns a.icon.fb {
   background-position: -64px 0;
 }
-/* line 217, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 .section.contact .title {
   top: 30%;
 }
-/* line 220, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 .section.contact .line {
   padding-top: 40%;
   height: 20%;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 227, ../scss/style.scss */
+  /* line 249, ../scss/style.scss */
   .section.aboutUs .upper-line {
     padding-top: 50px;
   }
 
-  /* line 230, ../scss/style.scss */
+  /* line 252, ../scss/style.scss */
   .section.aboutUs .description {
     width: 60%;
   }
