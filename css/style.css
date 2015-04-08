@@ -214,10 +214,14 @@ body {
 }
 /* line 176, ../scss/style.scss */
 .section.contact .dot {
-  margin-top: -webkit-calc(50% - 7px);
-  margin-top: calc(50% - 7px);
+  margin: 0 auto;
+  position: absolute;
+  left: -webkit-calc(50% - 7px);
+  left: calc(50% - 7px);
+  top: -webkit-calc(50% - 7px);
+  top: calc(50% - 7px);
 }
-/* line 179, ../scss/style.scss */
+/* line 182, ../scss/style.scss */
 .section.contact .lower-line {
   width: 1px;
   height: 20%;
@@ -227,7 +231,7 @@ body {
   top: 50%;
   background: #fff;
 }
-/* line 188, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 .section.contact .sns {
   width: 100%;
   text-align: center;
@@ -236,13 +240,13 @@ body {
   top: 70%;
   z-index: 1000;
 }
-/* line 195, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .section.contact .sns a {
   text-decoration: none;
   line-height: 30px;
   color: #fff;
 }
-/* line 199, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .section.contact .sns a.icon {
   display: inline-block;
   curosr: pointer;
@@ -250,31 +254,31 @@ body {
   height: 40px;
   background: url(../images/sns.png);
 }
-/* line 205, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 .section.contact .sns a.icon.li {
   background-position: -34px 0;
 }
-/* line 208, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 .section.contact .sns a.icon.fb {
   background-position: -64px 0;
 }
-/* line 214, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .section.contact .title {
   top: 30%;
 }
-/* line 217, ../scss/style.scss */
+/* line 220, ../scss/style.scss */
 .section.contact .line {
   padding-top: 40%;
   height: 20%;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 224, ../scss/style.scss */
+  /* line 227, ../scss/style.scss */
   .section.aboutUs .upper-line {
     padding-top: 50px;
   }
 
-  /* line 227, ../scss/style.scss */
+  /* line 230, ../scss/style.scss */
   .section.aboutUs .description {
     width: 60%;
   }

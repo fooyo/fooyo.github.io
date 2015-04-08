@@ -174,7 +174,10 @@ body{
         left: 50%;
     }
     .dot{
-      @include calc(margin-top, "50% - 7px");
+      margin: 0 auto;
+      position: absolute;
+      @include calc(left, "50% - 7px");
+      @include calc(top, "50% - 7px");
     }
     .lower-line{
         width: 1px;
