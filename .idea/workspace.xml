@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adea6c5-c8a3-4679-a95e-fe80340a8d79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fission.css" afterPath="$PROJECT_DIR$/css/fission.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/fission.scss" afterPath="$PROJECT_DIR$/scss/fission.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fooyo.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/scss/fission.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6394316">
-              <caret line="195" column="34" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -734,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/scss/fission.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6394316">
-          <caret line="195" column="34" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding />
         </state>
       </provider>
