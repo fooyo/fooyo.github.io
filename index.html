@@ -74,6 +74,25 @@
                 speed: 4000
             });
             $('.bxslider').bxSlider();
+            $('#wanmen').click(function(){
+                $('#case').show();
+                $('#case iframe')[0].src='wanmen.html';
+            });
+            $('#townsupper').click(function(){
+                $('#case').show();
+                $('#case iframe')[0].src='townsupper.html';
+            });
+            $('#tut').click(function(){
+                $('#case').show();
+                $('#case iframe')[0].src='tut.html';
+            });
+            $('#corgi').click(function(){
+                $('#case').show();
+                $('#case iframe')[0].src='corgi.html';
+            });
+            $('#cancel').click(function(){
+                $('#case').hide();
+            });
             $('#fullpage').fullpage({
                 //Navigation
                 menu: true,
@@ -454,11 +473,17 @@
         </div>
         <div class="cases">
             <ul class="bxslider">
-                <li><img src="images/wanmen.png" /></li>
-                <li><img src="images/townsupper.png" /></li>
-                <li><img src="images/tut.png" /></li>
-                <li><img src="images/corgi.png" /></li>
+                <li id="wanmen"><img src="images/wanmen.png" /></li>
+                <li id="townsupper"><img src="images/townsupper.png" /></li>
+                <li id="tut"><img src="images/tut.png" /></li>
+                <li id="corgi"><img src="images/corgi.png" /></li>
             </ul>
+        </div>
+        <div id="case">
+            <iframe>
+            </iframe>
+            <div id="cancel">
+            </div>
         </div>
     </div>
     <div class="section contact">
