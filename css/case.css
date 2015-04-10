@@ -35,31 +35,29 @@ body .container .right .title {
 body .container .right .title a {
   color: #fff;
   text-decoration: underline;
-  margin-right: 20px;
 }
-/* line 30, ../scss/case.scss */
+/* line 29, ../scss/case.scss */
 body .container .right .sub-title {
   padding: 0 40px;
 }
-/* line 33, ../scss/case.scss */
+/* line 32, ../scss/case.scss */
 body .container .right .details {
   padding: 0 40px;
   line-height: 20px;
   margin-top: 50px;
 }
-/* line 37, ../scss/case.scss */
+/* line 36, ../scss/case.scss */
 body .container .right .details a {
   text-decoration: none;
   color: #fff;
-  margin-right: 5px;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 49, ../scss/case.scss */
+  /* line 47, ../scss/case.scss */
   body .container .left {
     width: 100%;
   }
-  /* line 52, ../scss/case.scss */
+  /* line 50, ../scss/case.scss */
   body .container .right {
     width: 100%;
   }
