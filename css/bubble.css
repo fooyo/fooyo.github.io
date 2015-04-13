@@ -12,8 +12,9 @@
 .bubble {
   position: absolute;
   display: table;
+  top: 100%;
 }
-/* line 13, ../scss/bubble.scss */
+/* line 14, ../scss/bubble.scss */
 .bubble .alphabet {
   display: inline-block;
   line-height: 100px;
@@ -26,7 +27,7 @@
   z-index: 100;
   position: relative;
 }
-/* line 25, ../scss/bubble.scss */
+/* line 26, ../scss/bubble.scss */
 .bubble .more {
   display: none;
   position: absolute;
@@ -35,11 +36,11 @@
   margin-top: -240px;
   margin-left: 80px;
 }
-/* line 32, ../scss/bubble.scss */
+/* line 33, ../scss/bubble.scss */
 .bubble .more .description {
   display: none;
 }
-/* line 36, ../scss/bubble.scss */
+/* line 37, ../scss/bubble.scss */
 .bubble:hover {
   opacity: 1 !important;
   -webkit-animation-play-state: paused !important;
@@ -47,7 +48,7 @@
   -o-animation-play-state: paused !important;
   animation-play-state: paused !important;
 }
-/* line 38, ../scss/bubble.scss */
+/* line 39, ../scss/bubble.scss */
 .bubble:hover .more {
   display: table !important;
   -webkit-animation: blow 1s ease-in-out;
@@ -55,7 +56,7 @@
   -o-animation: blow 1s ease-in-out;
   animation: blow 1s ease-in-out;
 }
-/* line 45, ../scss/bubble.scss */
+/* line 46, ../scss/bubble.scss */
 .bubble:hover .description {
   display: table-cell !important;
   text-align: center;
@@ -71,15 +72,15 @@
   animation: blow 1s ease-in-out;
   padding: 0 20px;
 }
-/* line 59, ../scss/bubble.scss */
+/* line 60, ../scss/bubble.scss */
 .bubble:hover .description .name {
   font-size: 14px;
 }
-/* line 62, ../scss/bubble.scss */
+/* line 63, ../scss/bubble.scss */
 .bubble:hover .description .detail {
   font-size: 12px;
 }
-/* line 66, ../scss/bubble.scss */
+/* line 67, ../scss/bubble.scss */
 .bubble:hover .alphabet {
   width: 120px;
   height: 120px;
@@ -88,13 +89,12 @@
   text-indent: -9999px;
   background-size: 120px 120px;
 }
-/* line 79, ../scss/bubble.scss */
+/* line 80, ../scss/bubble.scss */
 .bubble.x1 {
   left: 10%;
-  top: 30%;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
   opacity: 0.9;
   -webkit-animation: moveclouds 15s linear 5s infinite, sideWays 10s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 15s linear 5s infinite, sideWays 10s ease-in-out 5s infinite alternate;
@@ -112,119 +112,114 @@
 /* line 97, ../scss/bubble.scss */
 .bubble.x2 {
   left: 20%;
-  top: 20%;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   transform: scale(0.6);
-  opacity: 0.8;
+  opacity: 0.9;
   -webkit-animation: moveclouds 25s linear 5s infinite, sideWays 7s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 25s linear 5s infinite, sideWays 7s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 25s linear 5s infinite, sideWays 7s ease-in-out 5s infinite alternate;
 }
-/* line 107, ../scss/bubble.scss */
+/* line 106, ../scss/bubble.scss */
 .bubble.x2 .alphabet,
 .bubble.x2 .description {
   background-color: #47dccb;
 }
-/* line 111, ../scss/bubble.scss */
+/* line 110, ../scss/bubble.scss */
 .bubble.x2:hover .alphabet {
   background-image: url("../images/avatars/y.jpg");
 }
-/* line 115, ../scss/bubble.scss */
+/* line 114, ../scss/bubble.scss */
 .bubble.x3 {
   left: 20%;
-  top: 70%;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  transform: scale(0.8);
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
   opacity: 0.9;
   -webkit-animation: moveclouds 20s linear 5s infinite, sideWays 15s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 20s linear 5s infinite, sideWays 15s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 20s linear 5s infinite, sideWays 15s ease-in-out 5s infinite alternate;
 }
-/* line 125, ../scss/bubble.scss */
+/* line 123, ../scss/bubble.scss */
 .bubble.x3 .alphabet,
 .bubble.x3 .description {
   background-color: #40abb4;
 }
-/* line 129, ../scss/bubble.scss */
+/* line 127, ../scss/bubble.scss */
 .bubble.x3:hover .alphabet {
   background-image: url("../images/avatars/q.jpg");
 }
-/* line 133, ../scss/bubble.scss */
+/* line 131, ../scss/bubble.scss */
 .bubble.x4 {
   left: 0%;
-  top: 60%;
-  -webkit-transform: scale(0.75);
-  -moz-transform: scale(0.75);
-  transform: scale(0.75);
-  opacity: 0.7;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.9;
   -webkit-animation: moveclouds 18s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 18s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 18s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
 }
-/* line 143, ../scss/bubble.scss */
+/* line 140, ../scss/bubble.scss */
 .bubble.x4 .alphabet {
   background-color: #95f4e9;
 }
-/* line 146, ../scss/bubble.scss */
+/* line 143, ../scss/bubble.scss */
 .bubble.x4 .description {
   background-color: #40abb4;
 }
-/* line 149, ../scss/bubble.scss */
+/* line 146, ../scss/bubble.scss */
 .bubble.x4:hover .alphabet {
   background-image: url("../images/avatars/c.jpg");
 }
-/* line 153, ../scss/bubble.scss */
+/* line 150, ../scss/bubble.scss */
 .bubble.x5 {
-  left: 60%;
-  top: 70%;
-  -webkit-transform: scale(0.7);
-  -moz-transform: scale(0.7);
-  transform: scale(0.7);
-  opacity: 0.6;
+  left: 50%;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.9;
   -webkit-animation: moveclouds 40s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 40s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 40s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
 }
-/* line 163, ../scss/bubble.scss */
+/* line 159, ../scss/bubble.scss */
 .bubble.x5 .alphabet,
 .bubble.x5 .description {
   background-color: #40abb4;
 }
-/* line 167, ../scss/bubble.scss */
+/* line 163, ../scss/bubble.scss */
 .bubble.x5:hover .alphabet {
   background-image: url("../images/avatars/m.jpg");
 }
-/* line 171, ../scss/bubble.scss */
+/* line 167, ../scss/bubble.scss */
 .bubble.x6 {
-  left: 70%;
-  top: 30%;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  transform: scale(0.8);
-  opacity: 0.8;
+  left: 60%;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.9;
   -webkit-animation: moveclouds 20s linear 5s infinite, sideWays 8s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 20s linear 5s infinite, sideWays 8s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 20s linear 5s infinite, sideWays 8s ease-in-out 5s infinite alternate;
 }
-/* line 181, ../scss/bubble.scss */
+/* line 176, ../scss/bubble.scss */
 .bubble.x6 .alphabet,
 .bubble.x6 .description {
   background-color: #47dccb;
 }
-/* line 185, ../scss/bubble.scss */
+/* line 180, ../scss/bubble.scss */
 .bubble.x6 .description {
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 191, ../scss/bubble.scss */
+/* line 186, ../scss/bubble.scss */
 .bubble.x6:hover .alphabet {
   background-image: url("../images/avatars/k.jpg");
 }
-/* line 194, ../scss/bubble.scss */
+/* line 189, ../scss/bubble.scss */
 .bubble.x6 .more {
   margin-left: -280px;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -232,10 +227,9 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 202, ../scss/bubble.scss */
+/* line 197, ../scss/bubble.scss */
 .bubble.x7 {
-  left: 80%;
-  top: 20%;
+  left: 70%;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   transform: scale(0.6);
@@ -244,23 +238,23 @@
   -moz-animation: moveclouds 30s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 30s linear 5s infinite, sideWays 12s ease-in-out 5s infinite alternate;
 }
-/* line 212, ../scss/bubble.scss */
+/* line 206, ../scss/bubble.scss */
 .bubble.x7 .alphabet,
 .bubble.x7 .description {
   background-color: #366695;
 }
-/* line 216, ../scss/bubble.scss */
+/* line 210, ../scss/bubble.scss */
 .bubble.x7 .description {
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 222, ../scss/bubble.scss */
+/* line 216, ../scss/bubble.scss */
 .bubble.x7:hover .alphabet {
   background-image: url("../images/avatars/j.jpg");
 }
-/* line 225, ../scss/bubble.scss */
+/* line 219, ../scss/bubble.scss */
 .bubble.x7 .more {
   margin-left: -280px;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -268,23 +262,22 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 233, ../scss/bubble.scss */
+/* line 227, ../scss/bubble.scss */
 .bubble.x8 {
-  left: 90%;
-  top: 50%;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  transform: scale(0.8);
-  opacity: 0.8;
+  left: 80%;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.9;
   -webkit-animation: moveclouds 30s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
   -moz-animation: moveclouds 30s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
   -o-animation: moveclouds 30s linear 5s infinite, sideWays 20s ease-in-out 5s infinite alternate;
 }
-/* line 243, ../scss/bubble.scss */
+/* line 236, ../scss/bubble.scss */
 .bubble.x8 .alphabet {
   background-color: #95f4e9;
 }
-/* line 246, ../scss/bubble.scss */
+/* line 239, ../scss/bubble.scss */
 .bubble.x8 .description {
   background-color: #40abb4;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -292,7 +285,7 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 253, ../scss/bubble.scss */
+/* line 246, ../scss/bubble.scss */
 .bubble.x8 .more {
   margin-left: -280px;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -300,17 +293,17 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 260, ../scss/bubble.scss */
+/* line 253, ../scss/bubble.scss */
 .bubble.x8:hover .alphabet {
   background-image: url("../images/avatars/z.jpg");
 }
 
 @-webkit-keyframes moveclouds {
-  30% {
-    top: 0%;
+  0% {
+    top: 100%;
   }
   100% {
-    top: 100%;
+    top: 0%;
   }
 }
 @-webkit-keyframes sideWays {
@@ -368,7 +361,7 @@
     top: 100%;
   }
   100% {
-    top: 0;
+    top: 0%;
   }
 }
 @-moz-keyframes sideWays {

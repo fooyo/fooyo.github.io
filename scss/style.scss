@@ -20,6 +20,9 @@ body{
     float: left;
     cursor: pointer;
     padding: 8px;
+    img{
+      height: 36px;
+    }
   }
   #toggle{
     width: 55px;
@@ -130,7 +133,7 @@ body{
         color: #fff;
         line-height: 24px;
         width: 30%;
-        margin: 0 auto;
+        margin: 20px auto;
         text-align: center;
     }
     .lower-line{
@@ -237,7 +240,7 @@ body{
       }
     }
     .title{
-      top: 30%;
+      top: 34%;
     }
     .line{
       padding-top: 40%;
