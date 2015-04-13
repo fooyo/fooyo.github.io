@@ -168,22 +168,26 @@
             var startingAngle=180+(-angle/2);
             var slice=angle/(menuItemNum-1);
             TweenMax.globalTimeScale(0.8);
+            var scale = 1;
+            if (window.innerWidth < 600){
+                scale = 0.7;
+            }
             $(".menu-item").each(function(i){
                 var angle=startingAngle+(slice*i);
                 $(this).css({
-                    transform:"rotate("+(angle)+"deg)",
-                    '-webkit-transform':"rotate("+(angle)+"deg)"
+                    transform:"rotate("+(angle)+"deg) scale("+scale+")",
+                    '-webkit-transform':"rotate("+(angle)+"deg) scale("+scale+")"
                 });
                 $(this).find(".menu-item-icon").css({
-                    transform:"rotate("+(-angle)+"deg)",
-                    '-webkit-transform':"rotate("+(-angle)+"deg)"
+                    transform:"rotate("+(-angle)+"deg) scale("+scale+")",
+                    '-webkit-transform':"rotate("+(-angle)+"deg) scale("+scale+")"
                 })
             });
             $(".menu-item-button span").each(function(i){
                 var angle=startingAngle+(slice*i);
                 $(this).css({
-                    transform:"rotate("+(-angle)+"deg)",
-                    '-webkit-transform':"rotate("+(-angle)+"deg)"
+                    transform:"rotate("+(-angle)+"deg) scale("+scale+")",
+                    '-webkit-transform':"rotate("+(-angle)+"deg) scale("+scale+")"
                 })
             });
             var on=false;
