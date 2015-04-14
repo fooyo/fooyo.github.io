@@ -96,9 +96,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 15s linear 2s infinite, sideWays 10s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 15s linear 2s infinite, sideWays 10s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 15s linear 2s infinite, sideWays 10s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 15s linear 0.5s infinite, sideWays 10s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 15s linear 0.5s infinite, sideWays 10s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 15s linear 0.5s infinite, sideWays 10s ease-in-out 0.5s infinite alternate;
 }
 /* line 89, ../scss/bubble.scss */
 .bubble.x1 .alphabet,
@@ -116,9 +116,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 25s linear 2s infinite, sideWays 7s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 25s linear 2s infinite, sideWays 7s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 25s linear 2s infinite, sideWays 7s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 25s linear 0.5s infinite, sideWays 7s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 25s linear 0.5s infinite, sideWays 7s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 25s linear 0.5s infinite, sideWays 7s ease-in-out 0.5s infinite alternate;
 }
 /* line 106, ../scss/bubble.scss */
 .bubble.x2 .alphabet,
@@ -136,9 +136,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 20s linear 2s infinite, sideWays 15s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 20s linear 2s infinite, sideWays 15s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 20s linear 2s infinite, sideWays 15s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 20s linear 0.5s infinite, sideWays 15s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 20s linear 0.5s infinite, sideWays 15s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 20s linear 0.5s infinite, sideWays 15s ease-in-out 0.5s infinite alternate;
 }
 /* line 123, ../scss/bubble.scss */
 .bubble.x3 .alphabet,
@@ -156,9 +156,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 18s linear 2s infinite, sideWays 20s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 18s linear 2s infinite, sideWays 20s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 18s linear 2s infinite, sideWays 20s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 18s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 18s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 18s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
 }
 /* line 140, ../scss/bubble.scss */
 .bubble.x4 .alphabet {
@@ -179,9 +179,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 40s linear 2s infinite, sideWays 12s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 40s linear 2s infinite, sideWays 12s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 40s linear 2s infinite, sideWays 12s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 40s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 40s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 40s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
 }
 /* line 159, ../scss/bubble.scss */
 .bubble.x5 .alphabet,
@@ -199,9 +199,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 20s linear 2s infinite, sideWays 8s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 20s linear 2s infinite, sideWays 8s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 20s linear 2s infinite, sideWays 8s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 20s linear 0.5s infinite, sideWays 8s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 20s linear 0.5s infinite, sideWays 8s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 20s linear 0.5s infinite, sideWays 8s ease-in-out 0.5s infinite alternate;
 }
 /* line 176, ../scss/bubble.scss */
 .bubble.x6 .alphabet,
@@ -234,9 +234,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 30s linear 2s infinite, sideWays 12s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 30s linear 2s infinite, sideWays 12s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 30s linear 2s infinite, sideWays 12s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 30s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 30s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 30s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
 }
 /* line 206, ../scss/bubble.scss */
 .bubble.x7 .alphabet,
@@ -269,9 +269,9 @@
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9;
-  -webkit-animation: moveclouds 30s linear 2s infinite, sideWays 20s ease-in-out 2s infinite alternate;
-  -moz-animation: moveclouds 30s linear 2s infinite, sideWays 20s ease-in-out 2s infinite alternate;
-  -o-animation: moveclouds 30s linear 2s infinite, sideWays 20s ease-in-out 2s infinite alternate;
+  -webkit-animation: moveclouds 30s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
+  -moz-animation: moveclouds 30s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
+  -o-animation: moveclouds 30s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
 }
 /* line 236, ../scss/bubble.scss */
 .bubble.x8 .alphabet {
