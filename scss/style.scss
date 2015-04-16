@@ -78,7 +78,7 @@ body{
     height: 100%;
     .dot{
         width: 14px;
-        margin: 150px auto 0;
+        margin: 250px auto 0;
         height: 14px;
         border-radius: 50%;
         background: #fff;
@@ -123,22 +123,24 @@ body{
     background: -moz-linear-gradient(#94F3E8, #7BCDD2); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#94F3E8, #7BCDD2); /* Standard syntax */
     .upper-line{
-        height: 30px;
+        height: 10%;
         width: 1px;
-        padding-top: 150px;
         margin: 0 auto;
         background: #fff;
     }
     .description{
         color: #fff;
         line-height: 24px;
-        width: 30%;
-        margin: 20px auto;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        border-radius: 50%;
+        background-color: #40abb4;
+        margin: 0 auto;
         text-align: center;
     }
     .lower-line{
         width: 1px;
-        padding-top: 150px;
         margin: 0 auto;
         background: #fff;
         height: 40%;
@@ -158,6 +160,36 @@ body{
     .line{
         height: 100%;
     }
+    #serviceContainer{
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      .service{
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        border-radius: 50%;
+        margin: 200px auto;
+        background-color: rgba(64,171,180,0.8);
+      }
+      #serviceIcon{
+        width: 100%;
+        height: 100px;
+      }
+      #serviceTitle{
+        width: 100%;
+        text-align: center;
+        color: #fff;
+      }
+      #serviceDescription{
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+      }
+    }
   }
   &.works{
     background: -webkit-linear-gradient(#61A6BB, #437AA1); /* For Safari 5.1 to 6.0 */
@@ -172,7 +204,7 @@ body{
     }
     .upper-line{
       width: 1px;
-      height:20%;
+      height: 20%;
       margin: 0 auto;
       background: #fff;
     }
@@ -275,6 +307,9 @@ body{
     z-index: 200;
     cursor: pointer;
   }
+}
+#serviceContainer{
+  display: none;
 }
 @media screen and (max-width: 600px) {
   .section.aboutUs .upper-line{

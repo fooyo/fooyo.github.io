@@ -109,23 +109,24 @@
 /* line 97, ../scss/menu.scss */
 .menu-item-button:hover {
   color: #fff;
+  cursor: pointer;
 }
 
-/* line 100, ../scss/menu.scss */
+/* line 101, ../scss/menu.scss */
 .icon {
   width: 100px;
   height: 100px;
   display: inline-block;
 }
-/* line 104, ../scss/menu.scss */
+/* line 105, ../scss/menu.scss */
 .icon.icon-web {
   background: url(../images/web.png) no-repeat center;
 }
-/* line 107, ../scss/menu.scss */
+/* line 108, ../scss/menu.scss */
 .icon.icon-app {
   background: url(../images/app.png) no-repeat center;
 }
-/* line 110, ../scss/menu.scss */
+/* line 111, ../scss/menu.scss */
 .icon.icon-all {
   background: url(../images/all.png) no-repeat center;
 }

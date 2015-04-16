@@ -122,7 +122,7 @@
     -o-animation: moveclouds 20s linear 0.5s infinite, sideWays 15s ease-in-out 0.5s infinite alternate;
     .alphabet,
     .description{
-      background-color:#40abb4;
+      background-color: rgba(64,171,180,0.8);
     }
     &:hover .alphabet{
       background-image: url("../images/avatars/q.jpg");
@@ -187,7 +187,7 @@
       background-image: url("../images/avatars/k.jpg");
     }
     .more{
-      margin-left: -280px;
+      margin-left: -300px;
       -webkit-animation: blow-right 1s ease-in-out;
       -moz-animation: blow-right 1s ease-in-out;
       -o-animation: blow-right 1s ease-in-out;
@@ -217,7 +217,7 @@
       background-image: url("../images/avatars/j.jpg");
     }
     .more{
-      margin-left: -280px;
+      margin-left: -300px;
       -webkit-animation: blow-right 1s ease-in-out;
       -moz-animation: blow-right 1s ease-in-out;
       -o-animation: blow-right 1s ease-in-out;
@@ -244,7 +244,7 @@
       animation: blow-right 1s ease-in-out;
     }
     .more{
-      margin-left: -280px;
+      margin-left: -300px;
       -webkit-animation: blow-right 1s ease-in-out;
       -moz-animation: blow-right 1s ease-in-out;
       -o-animation: blow-right 1s ease-in-out;
@@ -312,7 +312,7 @@
     height: 300px;
     opacity: 1;
     margin-top: -240px;
-    margin-left: -280px;
+    margin-left: -300px;
     color: #fff;
   }
 }
@@ -345,7 +345,7 @@
     margin-left: -40px;
     color: transparent;
   }
-  80%{
+  90%{
     color: transparent;
   }
   100% {
@@ -374,7 +374,7 @@
     height: 300px;
     opacity: 1;
     margin-top: -240px;
-    margin-left: -280px;
+    margin-left: -300px;
     color: #fff;
   }
 }
@@ -437,7 +437,7 @@
     height: 300px;
     opacity: 1;
     margin-top: -240px;
-    margin-left: -280px;
+    margin-left: -300px;
     color: #fff;
   }
 }

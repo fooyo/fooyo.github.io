@@ -45,20 +45,21 @@ body .container .right .details {
   padding: 0 40px;
   line-height: 20px;
   margin-top: 50px;
+  text-align: justify;
 }
-/* line 36, ../scss/case.scss */
+/* line 37, ../scss/case.scss */
 body .container .right .details a {
   text-decoration: none;
   color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 47, ../scss/case.scss */
+  /* line 48, ../scss/case.scss */
   body .container .left {
     width: 100%;
     margin-top: 50px;
   }
-  /* line 51, ../scss/case.scss */
+  /* line 52, ../scss/case.scss */
   body .container .right {
     width: 100%;
   }
