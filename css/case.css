@@ -20,46 +20,52 @@ body .container .left img {
   width: 400px;
   display: table-cell;
   margin: 10% auto;
+  -webkit-transition: width 1s;
+  transition: width 1s;
 }
 /* line 18, ../scss/case.scss */
+body .container .left img:hover {
+  width: 450px;
+}
+/* line 23, ../scss/case.scss */
 body .container .right {
   width: 50%;
   float: left;
 }
-/* line 21, ../scss/case.scss */
+/* line 26, ../scss/case.scss */
 body .container .right .title {
   margin: 16px 0;
   padding: 0 40px;
 }
-/* line 24, ../scss/case.scss */
+/* line 29, ../scss/case.scss */
 body .container .right .title a {
   color: #fff;
   text-decoration: underline;
 }
-/* line 29, ../scss/case.scss */
+/* line 34, ../scss/case.scss */
 body .container .right .sub-title {
   padding: 0 40px;
 }
-/* line 32, ../scss/case.scss */
+/* line 37, ../scss/case.scss */
 body .container .right .details {
   padding: 0 40px;
   line-height: 20px;
   margin-top: 50px;
   text-align: justify;
 }
-/* line 37, ../scss/case.scss */
+/* line 42, ../scss/case.scss */
 body .container .right .details a {
   text-decoration: none;
   color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 48, ../scss/case.scss */
+  /* line 53, ../scss/case.scss */
   body .container .left {
     width: 100%;
     margin-top: 50px;
   }
-  /* line 52, ../scss/case.scss */
+  /* line 57, ../scss/case.scss */
   body .container .right {
     width: 100%;
   }

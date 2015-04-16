@@ -13,6 +13,11 @@ body{
         width: 400px;
         display: table-cell;
         margin: 10% auto;
+        -webkit-transition: width 1s;
+        transition: width 1s;
+        &:hover{
+          width: 450px;
+        }
       }
     }
     .right{

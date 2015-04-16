@@ -382,9 +382,4 @@ body {
   .section.aboutUs .upper-line {
     padding-top: 50px;
   }
-
-  /* line 318, ../scss/style.scss */
-  .section.aboutUs .description {
-    width: 60%;
-  }
 }
