@@ -13,12 +13,12 @@
   top: 100%;
   .alphabet{
     display: inline-block;
-    line-height: 100px;
+    line-height: 80px;
     text-align: center;
-    width: 100px;
+    width: 80px;
     font-size: 36px;
     color: #fff;
-    height: 100px;
+    height: 80px;
     border-radius:50%;
     z-index: 100;
     position: relative;
@@ -79,9 +79,9 @@
   }
   &.x1{
     left: 10%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 15s linear 0.5s infinite, sideWays 10s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 15s linear 0.5s infinite, sideWays 10s ease-in-out 0.5s infinite alternate;
@@ -96,9 +96,9 @@
   }
   &.x2{
     left: 20%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 25s linear 0.5s infinite, sideWays 7s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 25s linear 0.5s infinite, sideWays 7s ease-in-out 0.5s infinite alternate;
@@ -113,9 +113,9 @@
   }
   &.x3{
     left: 20%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 20s linear 0.5s infinite, sideWays 15s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 20s linear 0.5s infinite, sideWays 15s ease-in-out 0.5s infinite alternate;
@@ -130,9 +130,9 @@
   }
   &.x4{
     left: 0%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 18s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 18s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
@@ -149,9 +149,9 @@
   }
   &.x5{
     left: 50%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 40s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 40s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
@@ -166,9 +166,9 @@
   }
   &.x6{
     left: 60%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 20s linear 0.5s infinite, sideWays 8s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 20s linear 0.5s infinite, sideWays 8s ease-in-out 0.5s infinite alternate;
@@ -196,9 +196,9 @@
   }
   &.x7{
     left: 70%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 30s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 30s linear 0.5s infinite, sideWays 12s ease-in-out 0.5s infinite alternate;
@@ -226,9 +226,9 @@
   }
   &.x8{
     left: 80%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.9;
     -webkit-animation: moveclouds 30s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
     -moz-animation: moveclouds 30s linear 0.5s infinite, sideWays 20s ease-in-out 0.5s infinite alternate;
@@ -283,7 +283,7 @@
     margin-left: -40px;
     color: transparent;
   }
-  80%{
+  95%{
     color: transparent;
   }
   100% {
@@ -304,7 +304,7 @@
     margin-left: -100px;
     color: transparent;
   }
-  80%{
+  95%{
     color: transparent;
   }
   100% {
@@ -366,7 +366,7 @@
     margin-left: -100px;
     color: transparent;
   }
-  80%{
+  95%{
     color: transparent;
   }
   100% {
@@ -407,7 +407,7 @@
     margin-left: -40px;
     color: transparent;
   }
-  80%{
+  95%{
     color: transparent;
   }
   100% {
@@ -429,7 +429,7 @@
     margin-left: -100px;
     color: transparent;
   }
-  80%{
+  95%{
     color: transparent;
   }
   100% {
