@@ -103,16 +103,17 @@
                 $('#case').show();
                 $('#case iframe')[0].src='townsupper.html';
             });
-            $('#tut').click(function(){
-                $('#case').show();
-                $('#case iframe')[0].src='tut.html';
-            });
             $('#corgi').click(function(){
                 $('#case').show();
                 $('#case iframe')[0].src='corgi.html';
             });
+            $('#tut').click(function(){
+                $('#case').show();
+                $('#case iframe')[0].src='tut.html';
+            });
             $('#cancel').click(function(){
                 $('#case').hide();
+                $('#case iframe')[0].src='';
             });
             $('#fullpage').fullpage({
                 //Navigation
