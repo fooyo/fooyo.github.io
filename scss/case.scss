@@ -5,6 +5,7 @@ body{
   font-size: 14px;
   .container{
     width: 100%;
+    max-width: 1024px;
     margin: 15% auto;
     .left{
       width: 50%;
@@ -53,6 +54,9 @@ body{
       .left{
         width: 100%;
         margin-top: 50px;
+        img{
+          width: 300px;
+        }
       }
       .right{
         width: 100%;

@@ -8,14 +8,15 @@ body {
 /* line 6, ../scss/case.scss */
 body .container {
   width: 100%;
+  max-width: 1024px;
   margin: 15% auto;
 }
-/* line 9, ../scss/case.scss */
+/* line 10, ../scss/case.scss */
 body .container .left {
   width: 50%;
   float: left;
 }
-/* line 12, ../scss/case.scss */
+/* line 13, ../scss/case.scss */
 body .container .left img {
   width: 400px;
   display: table-cell;
@@ -23,49 +24,53 @@ body .container .left img {
   -webkit-transition: width 1s;
   transition: width 1s;
 }
-/* line 18, ../scss/case.scss */
+/* line 19, ../scss/case.scss */
 body .container .left img:hover {
   width: 450px;
 }
-/* line 23, ../scss/case.scss */
+/* line 24, ../scss/case.scss */
 body .container .right {
   width: 50%;
   float: left;
 }
-/* line 26, ../scss/case.scss */
+/* line 27, ../scss/case.scss */
 body .container .right .title {
   margin: 16px 0;
   padding: 0 40px;
 }
-/* line 29, ../scss/case.scss */
+/* line 30, ../scss/case.scss */
 body .container .right .title a {
   color: #fff;
   text-decoration: underline;
 }
-/* line 34, ../scss/case.scss */
+/* line 35, ../scss/case.scss */
 body .container .right .sub-title {
   padding: 0 40px;
 }
-/* line 37, ../scss/case.scss */
+/* line 38, ../scss/case.scss */
 body .container .right .details {
   padding: 0 40px;
   line-height: 20px;
   margin-top: 50px;
   text-align: justify;
 }
-/* line 42, ../scss/case.scss */
+/* line 43, ../scss/case.scss */
 body .container .right .details a {
   text-decoration: none;
   color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 53, ../scss/case.scss */
+  /* line 54, ../scss/case.scss */
   body .container .left {
     width: 100%;
     margin-top: 50px;
   }
   /* line 57, ../scss/case.scss */
+  body .container .left img {
+    width: 300px;
+  }
+  /* line 61, ../scss/case.scss */
   body .container .right {
     width: 100%;
   }

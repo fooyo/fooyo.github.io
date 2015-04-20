@@ -354,6 +354,7 @@ body {
 /* line 292, ../scss/style.scss */
 #case iframe {
   position: absolute;
+  border: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -361,7 +362,7 @@ body {
   z-index: 100;
   overflow-y: scroll;
 }
-/* line 301, ../scss/style.scss */
+/* line 302, ../scss/style.scss */
 #case #cancel {
   width: 29px;
   height: 29px;
@@ -373,13 +374,13 @@ body {
   cursor: pointer;
 }
 
-/* line 312, ../scss/style.scss */
+/* line 313, ../scss/style.scss */
 #serviceContainer {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 316, ../scss/style.scss */
+  /* line 317, ../scss/style.scss */
   .section.aboutUs .upper-line {
     padding-top: 50px;
   }
