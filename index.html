@@ -189,9 +189,6 @@
             var slice=angle/(menuItemNum-1);
             TweenMax.globalTimeScale(0.8);
             var scale = 1;
-            if (window.innerWidth < 600){
-                scale = 0.7;
-            }
             $(".menu-item").each(function(i){
                 var angle=startingAngle+(slice*i);
                 $(this).css({
