@@ -19,9 +19,9 @@ body{
     height: 55px;
     float: left;
     cursor: pointer;
-    padding: 8px;
+    padding: 0 8px;
     img{
-      height: 36px;
+      height: 55px;
     }
   }
   #toggle{
@@ -211,9 +211,9 @@ body{
     }
     .lower-line{
       width: 1px;
-      height: 5%;
       position: absolute;
-      bottom: 0;
+      @include calc(top, "55% + 250px");
+      height: 20%;
       left: 50%;
       background-color: #fff;
     }

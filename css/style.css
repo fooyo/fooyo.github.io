@@ -20,11 +20,11 @@ body {
   height: 55px;
   float: left;
   cursor: pointer;
-  padding: 8px;
+  padding: 0 8px;
 }
 /* line 23, ../scss/style.scss */
 #header .logo img {
-  height: 36px;
+  height: 55px;
 }
 /* line 27, ../scss/style.scss */
 #header #toggle {
@@ -255,9 +255,10 @@ body {
 /* line 212, ../scss/style.scss */
 .section.works .lower-line {
   width: 1px;
-  height: 5%;
   position: absolute;
-  bottom: 0;
+  top: -webkit-calc(55% + 250px);
+  top: calc(55% + 250px);
+  height: 20%;
   left: 50%;
   background-color: #fff;
 }
