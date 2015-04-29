@@ -318,3 +318,17 @@ body{
     padding-top: 50px;
   }
 }
+.section{
+  &.aboutUs{
+    display: none;
+  }
+  &.services{
+    display: none;
+  }
+  &.works{
+    display: none;
+  }
+  &.contact{
+    display: none;
+  }
+}

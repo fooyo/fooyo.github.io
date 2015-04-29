@@ -386,3 +386,19 @@ body {
     padding-top: 50px;
   }
 }
+/* line 322, ../scss/style.scss */
+.section.aboutUs {
+  display: none;
+}
+/* line 325, ../scss/style.scss */
+.section.services {
+  display: none;
+}
+/* line 328, ../scss/style.scss */
+.section.works {
+  display: none;
+}
+/* line 331, ../scss/style.scss */
+.section.contact {
+  display: none;
+}
