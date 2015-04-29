@@ -33,7 +33,6 @@ $(document).ready(function() {
         $('#serviceIcon').css("background", "url(images/all.png) no-repeat center");
         $('#serviceDescription').html("Wanting to build an empire for your business online? You need experts to help! By keeping all your expectations in mind, we strive to provide you with an integrated IT solution from day one.");
     });
-    $('.bxslider').bxSlider();
     $('#wanmen').click(function(){
         $('#case').show();
         $('#case iframe')[0].src='wanmen.html';
@@ -264,4 +263,5 @@ $(document).ready(function() {
             });
         })
     }
+    $('.bxslider').bxSlider();
 });
