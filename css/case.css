@@ -41,36 +41,37 @@ body .container .right .title {
 /* line 30, ../scss/case.scss */
 body .container .right .title a {
   color: #fff;
+  font-size: 24px;
   text-decoration: underline;
 }
-/* line 35, ../scss/case.scss */
+/* line 36, ../scss/case.scss */
 body .container .right .sub-title {
   padding: 0 40px;
 }
-/* line 38, ../scss/case.scss */
+/* line 39, ../scss/case.scss */
 body .container .right .details {
   padding: 0 40px;
   line-height: 20px;
   margin-top: 50px;
   text-align: justify;
 }
-/* line 43, ../scss/case.scss */
+/* line 44, ../scss/case.scss */
 body .container .right .details a {
   text-decoration: none;
   color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 54, ../scss/case.scss */
+  /* line 55, ../scss/case.scss */
   body .container .left {
     width: 100%;
     margin-top: 50px;
   }
-  /* line 57, ../scss/case.scss */
+  /* line 58, ../scss/case.scss */
   body .container .left img {
     width: 300px;
   }
-  /* line 61, ../scss/case.scss */
+  /* line 62, ../scss/case.scss */
   body .container .right {
     width: 100%;
   }

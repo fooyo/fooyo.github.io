@@ -123,7 +123,7 @@ $(document).ready(function() {
     });
     var menuItemNum=$(".menu-item").length;
     var angle=120;
-    var distance=150;
+    var distance=180;
     var startingAngle=180+(-angle/2);
     var slice=angle/(menuItemNum-1);
     TweenMax.globalTimeScale(0.8);
@@ -196,14 +196,14 @@ $(document).ready(function() {
                 ease:Quad.easeInOut,
                 onComplete:function(){
                     TweenMax.to($bounce,0.15,{
-                        // scaleX:1.2,
+                        //scaleX:1.2,
                         scaleY:0.7,
                         force3D:true,
                         ease:Quad.easeInOut,
                         onComplete:function(){
                             TweenMax.to($bounce,3,{
-                                // scaleX:1,
-                                scaleY:0.8,
+                               // scaleX:1,
+                                scaleY:1,
                                 force3D:true,
                                 ease:Elastic.easeOut,
                                 easeParams:[1.1,0.12]
@@ -264,4 +264,5 @@ $(document).ready(function() {
         })
     }
     $('.bxslider').bxSlider();
+    $('.rotator').css("opacity", 1);
 });

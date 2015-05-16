@@ -3,7 +3,7 @@
   height: 200px;
   margin: 0 auto 100px;
   position: absolute;
-  top: 300px;
+  top: 320px;
   filter: url("../images/blur.svg#goo");
   -webkit-filter: url("#goo");
   -moz-filter: url("#goo");
@@ -22,31 +22,24 @@
 .menu-toggle-button,
 .menu-item-bounce,
 .menu-item-button {
-  background: #94F3E8;
+  background: #64d0d4;
   border-radius: 50%;
-  width: 110px;
-  height: 110px;
-  margin-left: -55px;
-  margin-top: -55px;
+  width: 90px;
+  height: 90px;
+  margin-left: -45px;
+  margin-top: -45px;
   color: #fff;
   border: none;
   outline: none;
   position: relative;
 }
 
-.menu-toggle-button {
-  background: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .menu-toggle-icon {
   position: absolute;
   top: 0;
   left: 0;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   background: url(../images/plus.png) no-repeat center;
 }
 
@@ -74,41 +67,57 @@
 }
 
 .menu-item-button {
-  width: 110px;
-  height: 110px;
-  margin-left: -55px;
-  margin-top: -55px;
   position: absolute;
   top: 0;
   left: 0;
   color: #AD4C4C;
   span{
-	display:none;
-	font-size: 16px;
+	   display:none;
+	   font-size: 16px;
   }
-  &:hover span{
-	display:block;
-  }
-  &:hover i{
-	display: none;
-  }
-}
-
-.menu-item-button:hover {
-  color: #fff;
-  cursor: pointer;
-}
-.icon{
-  width: 100px;
-  height: 100px;
-  display: inline-block;
   &.icon-web{
-	background: url(../images/web.png) no-repeat center;
+    background-color: #5ef3e7;
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
+    .icon{
+      background: url(../images/web.png) no-repeat center;
+    }
   }
   &.icon-app{
-	background: url(../images/app.png) no-repeat center;
+    width: 160px;
+    height: 160px;
+    margin-left: -80px;
+    margin-top: -80px;
+    background-color: #64e7e1;
+    .icon{
+      background: url(../images/app.png) no-repeat center;
+    }
   }
   &.icon-all{
-	background: url(../images/all.png) no-repeat center;
+    background-color: #66d7d8;
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
+    .icon{
+      background: url(../images/all.png) no-repeat center;
+    }
+  }
+  .icon{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+  &:hover {
+    color: #fff;
+    cursor: pointer;
+    span{
+      display:block;
+    }
+    i{
+      display: none;
+    }
   }
 }
