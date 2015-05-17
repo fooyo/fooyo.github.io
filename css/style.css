@@ -87,24 +87,26 @@ body {
 /* line 78, ../scss/style.scss */
 .section .line-container {
   width: 100%;
+  position: absolute;
+  top: 0;
   height: 100%;
 }
-/* line 81, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .section .line-container .dot {
   width: 14px;
-  margin: 250px auto 0;
+  margin: 150px auto 0;
   height: 14px;
   border-radius: 50%;
   background: #fff;
 }
-/* line 88, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .section .line-container .line {
   width: 1px;
   padding-top: 150px;
   margin: 0 auto;
   background: #fff;
 }
-/* line 96, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .section.home .rotator {
   width: 200px;
   margin: 0 auto;
@@ -116,7 +118,7 @@ body {
   left: -webkit-calc(50% - 50px);
   left: calc(50% - 50px);
 }
-/* line 106, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 .section.home .icon-next {
   background: url(../images/arrow.png) no-repeat;
   width: 56px;
@@ -129,13 +131,14 @@ body {
   -webkit-animation: bounce 2s infinite;
   -moz-animation: bounce 2s infinite;
   -o-animation: bounce 2s infinite;
+  -ms-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
-/* line 118, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .section.home .icon-next:hover {
   cursor: pointer;
 }
-/* line 123, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .section.aboutUs {
   background: -webkit-linear-gradient(#94F3E8, #7BCDD2);
   /* For Safari 5.1 to 6.0 */
@@ -146,14 +149,14 @@ body {
   background: linear-gradient(#94F3E8, #7BCDD2);
   /* Standard syntax */
 }
-/* line 128, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 .section.aboutUs .upper-line {
   height: 10%;
   width: 1px;
   margin: 0 auto;
   background: #fff;
 }
-/* line 134, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .section.aboutUs .description {
   width: 240px;
   height: 240px;
@@ -162,7 +165,7 @@ body {
   border-radius: 50%;
   background-color: rgba(54, 102, 149, 0.2);
 }
-/* line 142, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 .section.aboutUs .description span.circle {
   display: block;
   position: absolute;
@@ -173,27 +176,27 @@ body {
   border-radius: 50%;
   background-color: rgba(54, 102, 149, 0.2);
 }
-/* line 151, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle1 {
   margin-top: -65px;
   margin-left: -70px;
 }
-/* line 155, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle2 {
   margin-top: -65px;
   margin-left: -50px;
 }
-/* line 159, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle3 {
   margin-top: -45px;
   margin-left: -50px;
 }
-/* line 163, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle4 {
   margin-top: -45px;
   margin-left: -70px;
 }
-/* line 168, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .section.aboutUs .description span.name {
   color: #fff;
   font-size: 20px;
@@ -202,7 +205,7 @@ body {
   margin-top: -20px;
   position: relative;
 }
-/* line 176, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .section.aboutUs .description span.more {
   text-align: center;
   font-size: 12px;
@@ -210,21 +213,21 @@ body {
   color: #8eeae3;
   position: relative;
 }
-/* line 185, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 .section.aboutUs .lower-line {
   width: 1px;
   margin: 0 auto;
   background: #fff;
   height: 40%;
 }
-/* line 191, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .section.aboutUs:not(.active) .bubble {
   -webkit-animation-play-state: paused !important;
   -moz-animation-play-state: paused !important;
   -o-animation-play-state: paused !important;
   animation-play-state: paused !important;
 }
-/* line 198, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 .section.services {
   background: -webkit-linear-gradient(#7BCDD2, #61A6BB);
   /* For Safari 5.1 to 6.0 */
@@ -235,11 +238,11 @@ body {
   background: linear-gradient(#7BCDD2, #61A6BB);
   /* Standard syntax */
 }
-/* line 203, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 .section.services .line {
   height: 100%;
 }
-/* line 206, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 .section.services #serviceContainer {
   position: absolute;
   top: 0;
@@ -247,7 +250,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* line 212, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .section.services #serviceContainer .service {
   width: 300px;
   height: 300px;
@@ -256,25 +259,25 @@ body {
   margin: 200px auto;
   background-color: rgba(64, 171, 180, 0.8);
 }
-/* line 220, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .section.services #serviceContainer #serviceIcon {
   width: 100%;
   height: 100px;
 }
-/* line 224, ../scss/style.scss */
+/* line 227, ../scss/style.scss */
 .section.services #serviceContainer #serviceTitle {
   width: 100%;
   text-align: center;
   color: #fff;
 }
-/* line 229, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 .section.services #serviceContainer #serviceDescription {
   color: #fff;
   text-align: center;
   width: 100%;
   padding-top: 20px;
 }
-/* line 237, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .section.works {
   background: -webkit-linear-gradient(#61A6BB, #437AA1);
   /* For Safari 5.1 to 6.0 */
@@ -285,21 +288,21 @@ body {
   background: linear-gradient(#61A6BB, #437AA1);
   /* Standard syntax */
 }
-/* line 242, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .section.works .cases {
   position: absolute;
   width: 100%;
   margin: 0 auto;
   top: 30%;
 }
-/* line 248, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .section.works .upper-line {
   width: 1px;
   height: 20%;
   margin: 0 auto;
   background: #fff;
 }
-/* line 254, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .section.works .lower-line {
   width: 1px;
   position: absolute;
@@ -309,7 +312,7 @@ body {
   left: 50%;
   background-color: #fff;
 }
-/* line 263, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .section.contact {
   background: -webkit-linear-gradient(#437AA1, #356594);
   /* For Safari 5.1 to 6.0 */
@@ -320,7 +323,7 @@ body {
   background: linear-gradient(#437AA1, #356594);
   /* Standard syntax */
 }
-/* line 268, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 .section.contact .top-line {
   width: 1px;
   height: 30%;
@@ -329,7 +332,7 @@ body {
   top: 0;
   left: 50%;
 }
-/* line 276, ../scss/style.scss */
+/* line 279, ../scss/style.scss */
 .section.contact .dot {
   margin: 0 auto;
   position: absolute;
@@ -338,7 +341,7 @@ body {
   top: -webkit-calc(50% - 7px);
   top: calc(50% - 7px);
 }
-/* line 282, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 .section.contact .lower-line {
   width: 1px;
   height: 20%;
@@ -348,7 +351,7 @@ body {
   top: 50%;
   background: #fff;
 }
-/* line 291, ../scss/style.scss */
+/* line 294, ../scss/style.scss */
 .section.contact .sns {
   width: 100%;
   text-align: center;
@@ -357,13 +360,13 @@ body {
   top: 70%;
   z-index: 1000;
 }
-/* line 298, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 .section.contact .sns a {
   text-decoration: none;
   line-height: 30px;
   color: #fff;
 }
-/* line 302, ../scss/style.scss */
+/* line 305, ../scss/style.scss */
 .section.contact .sns a.icon {
   display: inline-block;
   curosr: pointer;
@@ -371,25 +374,25 @@ body {
   height: 40px;
   background: url(../images/sns.png);
 }
-/* line 308, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .section.contact .sns a.icon.li {
   background-position: -34px 0;
 }
-/* line 311, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .section.contact .sns a.icon.fb {
   background-position: -64px 0;
 }
-/* line 317, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 .section.contact .title {
   top: 34%;
 }
-/* line 320, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 .section.contact .line {
   padding-top: 40%;
   height: 20%;
 }
 
-/* line 326, ../scss/style.scss */
+/* line 329, ../scss/style.scss */
 #case {
   position: absolute;
   left: 0;
@@ -399,7 +402,7 @@ body {
   z-index: 100;
   display: none;
 }
-/* line 334, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 #case iframe {
   position: absolute;
   border: 0;
@@ -410,7 +413,7 @@ body {
   z-index: 100;
   overflow-y: scroll;
 }
-/* line 344, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 #case #cancel {
   width: 57px;
   height: 57px;
@@ -422,35 +425,35 @@ body {
   cursor: pointer;
 }
 
-/* line 355, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 #serviceContainer {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 359, ../scss/style.scss */
+  /* line 362, ../scss/style.scss */
   .section.aboutUs .upper-line {
     padding-top: 50px;
   }
 
-  /* line 362, ../scss/style.scss */
+  /* line 365, ../scss/style.scss */
   .section.services #serviceContainer .service {
     padding: 10px !important;
   }
 }
-/* line 367, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 .section.aboutUs {
   display: none;
 }
-/* line 370, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 .section.services {
   display: none;
 }
-/* line 373, ../scss/style.scss */
+/* line 376, ../scss/style.scss */
 .section.works {
   display: none;
 }
-/* line 376, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 .section.contact {
   display: none;
 }

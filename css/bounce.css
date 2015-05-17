@@ -31,3 +31,14 @@
     -o-transform: translateY(-5px);
   }
 }
+@-ms-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-10px);
+  }
+  60% {
+    -ms-transform: translateY(-5px);
+  }
+}

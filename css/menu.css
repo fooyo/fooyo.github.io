@@ -5,23 +5,18 @@
   margin: 0 auto 100px;
   position: absolute;
   top: 320px;
-  filter: url("../images/blur.svg#goo");
-  -webkit-filter: url("#goo");
-  -moz-filter: url("#goo");
-  -o-filter: url("#goo");
-  -ms-filter: url("#goo");
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
-/* line 16, ../scss/menu.scss */
+/* line 11, ../scss/menu.scss */
 .menu-wrapper {
   position: absolute;
   left: 50%;
   bottom: 10px;
 }
 
-/* line 22, ../scss/menu.scss */
+/* line 17, ../scss/menu.scss */
 .menu-toggle-button,
 .menu-item-bounce,
 .menu-item-button {
@@ -37,7 +32,7 @@
   position: relative;
 }
 
-/* line 37, ../scss/menu.scss */
+/* line 32, ../scss/menu.scss */
 .menu-toggle-icon {
   position: absolute;
   top: 0;
@@ -47,7 +42,7 @@
   background: url(../images/plus.png) no-repeat center;
 }
 
-/* line 46, ../scss/menu.scss */
+/* line 41, ../scss/menu.scss */
 .menu-items {
   list-style-type: none;
   padding: 0;
@@ -57,7 +52,7 @@
   top: 0;
 }
 
-/* line 55, ../scss/menu.scss */
+/* line 50, ../scss/menu.scss */
 .menu-item {
   position: absolute;
   top: 0;
@@ -66,26 +61,26 @@
   height: 0;
 }
 
-/* line 63, ../scss/menu.scss */
+/* line 58, ../scss/menu.scss */
 .menu-item-bounce {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 69, ../scss/menu.scss */
+/* line 64, ../scss/menu.scss */
 .menu-item-button {
   position: absolute;
   top: 0;
   left: 0;
   color: #AD4C4C;
 }
-/* line 74, ../scss/menu.scss */
+/* line 69, ../scss/menu.scss */
 .menu-item-button span {
   display: none;
   font-size: 16px;
 }
-/* line 78, ../scss/menu.scss */
+/* line 73, ../scss/menu.scss */
 .menu-item-button.icon-web {
   background-color: #5ef3e7;
   width: 140px;
@@ -93,11 +88,11 @@
   margin-left: -70px;
   margin-top: -70px;
 }
-/* line 84, ../scss/menu.scss */
+/* line 79, ../scss/menu.scss */
 .menu-item-button.icon-web .icon {
   background: url(../images/web.png) no-repeat center;
 }
-/* line 88, ../scss/menu.scss */
+/* line 83, ../scss/menu.scss */
 .menu-item-button.icon-app {
   width: 160px;
   height: 160px;
@@ -105,11 +100,11 @@
   margin-top: -80px;
   background-color: #64e7e1;
 }
-/* line 94, ../scss/menu.scss */
+/* line 89, ../scss/menu.scss */
 .menu-item-button.icon-app .icon {
   background: url(../images/app.png) no-repeat center;
 }
-/* line 98, ../scss/menu.scss */
+/* line 93, ../scss/menu.scss */
 .menu-item-button.icon-all {
   background-color: #66d7d8;
   width: 140px;
@@ -117,26 +112,26 @@
   margin-left: -70px;
   margin-top: -70px;
 }
-/* line 104, ../scss/menu.scss */
+/* line 99, ../scss/menu.scss */
 .menu-item-button.icon-all .icon {
   background: url(../images/all.png) no-repeat center;
 }
-/* line 108, ../scss/menu.scss */
+/* line 103, ../scss/menu.scss */
 .menu-item-button .icon {
   width: 100px;
   height: 100px;
   display: inline-block;
 }
-/* line 113, ../scss/menu.scss */
+/* line 108, ../scss/menu.scss */
 .menu-item-button:hover {
   color: #fff;
   cursor: pointer;
 }
-/* line 116, ../scss/menu.scss */
+/* line 111, ../scss/menu.scss */
 .menu-item-button:hover span {
   display: block;
 }
-/* line 119, ../scss/menu.scss */
+/* line 114, ../scss/menu.scss */
 .menu-item-button:hover i {
   display: none;
 }

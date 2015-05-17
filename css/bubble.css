@@ -222,21 +222,23 @@
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 192, ../scss/bubble.scss */
+/* line 193, ../scss/bubble.scss */
 .bubble.x6:hover .alphabet {
   background-image: url("../images/avatars/k.jpg");
 }
-/* line 195, ../scss/bubble.scss */
+/* line 196, ../scss/bubble.scss */
 .bubble.x6 .more {
   margin-left: -300px;
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 203, ../scss/bubble.scss */
+/* line 205, ../scss/bubble.scss */
 .bubble.x7 {
   left: 70%;
   top: 60%;
@@ -245,31 +247,33 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 210, ../scss/bubble.scss */
+/* line 212, ../scss/bubble.scss */
 .bubble.x7 .alphabet,
 .bubble.x7 .description {
   background-color: #366695;
 }
-/* line 214, ../scss/bubble.scss */
+/* line 216, ../scss/bubble.scss */
 .bubble.x7 .description {
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 220, ../scss/bubble.scss */
+/* line 223, ../scss/bubble.scss */
 .bubble.x7:hover .alphabet {
   background-image: url("../images/avatars/j.jpg");
 }
-/* line 223, ../scss/bubble.scss */
+/* line 226, ../scss/bubble.scss */
 .bubble.x7 .more {
   margin-left: -300px;
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 231, ../scss/bubble.scss */
+/* line 235, ../scss/bubble.scss */
 .bubble.x8 {
   left: 80%;
   top: 50%;
@@ -278,27 +282,29 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 238, ../scss/bubble.scss */
+/* line 242, ../scss/bubble.scss */
 .bubble.x8 .alphabet {
   background-color: #95f4e9;
 }
-/* line 241, ../scss/bubble.scss */
+/* line 245, ../scss/bubble.scss */
 .bubble.x8 .description {
   background-color: #40abb4;
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 248, ../scss/bubble.scss */
+/* line 253, ../scss/bubble.scss */
 .bubble.x8 .more {
   margin-left: -300px;
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 255, ../scss/bubble.scss */
+/* line 261, ../scss/bubble.scss */
 .bubble.x8:hover .alphabet {
   background-image: url("../images/avatars/z.jpg");
 }
@@ -478,7 +484,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 448, ../scss/bubble.scss */
+  /* line 454, ../scss/bubble.scss */
   .bubble {
     display: none;
   }

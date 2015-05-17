@@ -77,10 +77,12 @@ body{
   }
   .line-container{
     width: 100%;
+    position: absolute;
+    top: 0;
     height: 100%;
     .dot{
         width: 14px;
-        margin: 250px auto 0;
+        margin: 150px auto 0;
         height: 14px;
         border-radius: 50%;
         background: #fff;
@@ -114,6 +116,7 @@ body{
       -webkit-animation: bounce 2s infinite;
       -moz-animation: bounce 2s infinite;
       -o-animation: bounce 2s infinite;
+      -ms-animation: bounce 2s infinite;
       animation: bounce 2s infinite;
       &:hover{
         cursor: pointer;
