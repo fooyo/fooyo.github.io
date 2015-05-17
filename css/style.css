@@ -176,22 +176,22 @@ body {
 /* line 151, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle1 {
   margin-top: -65px;
-  margin-left: -50px;
+  margin-left: -70px;
 }
 /* line 155, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle2 {
   margin-top: -65px;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 /* line 159, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle3 {
   margin-top: -45px;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 /* line 163, ../scss/style.scss */
 .section.aboutUs .description span.circle.circle4 {
   margin-top: -45px;
-  margin-left: -50px;
+  margin-left: -70px;
 }
 /* line 168, ../scss/style.scss */
 .section.aboutUs .description span.name {

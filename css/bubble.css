@@ -111,24 +111,42 @@
   background-image: url("../images/avatars/s.jpg");
 }
 /* line 98, ../scss/bubble.scss */
-.bubble.x2 {
-  left: 20%;
-  top: 80%;
+.bubble.x9 {
+  left: 25%;
+  top: 70%;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.9;
 }
 /* line 105, ../scss/bubble.scss */
+.bubble.x9 .alphabet,
+.bubble.x9 .description {
+  background-color: #366695;
+}
+/* line 109, ../scss/bubble.scss */
+.bubble.x9:hover .alphabet {
+  background-image: url("../images/avatars/a.jpg");
+}
+/* line 113, ../scss/bubble.scss */
+.bubble.x2 {
+  left: 10%;
+  top: 70%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 120, ../scss/bubble.scss */
 .bubble.x2 .alphabet,
 .bubble.x2 .description {
   background-color: #47dccb;
 }
-/* line 109, ../scss/bubble.scss */
+/* line 124, ../scss/bubble.scss */
 .bubble.x2:hover .alphabet {
   background-image: url("../images/avatars/y.jpg");
 }
-/* line 113, ../scss/bubble.scss */
+/* line 128, ../scss/bubble.scss */
 .bubble.x3 {
   left: 20%;
   top: 50%;
@@ -137,16 +155,16 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 120, ../scss/bubble.scss */
+/* line 135, ../scss/bubble.scss */
 .bubble.x3 .alphabet,
 .bubble.x3 .description {
   background-color: rgba(64, 171, 180, 0.8);
 }
-/* line 124, ../scss/bubble.scss */
+/* line 139, ../scss/bubble.scss */
 .bubble.x3:hover .alphabet {
   background-image: url("../images/avatars/q.jpg");
 }
-/* line 128, ../scss/bubble.scss */
+/* line 143, ../scss/bubble.scss */
 .bubble.x4 {
   left: 0%;
   top: 60%;
@@ -155,19 +173,19 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 135, ../scss/bubble.scss */
+/* line 150, ../scss/bubble.scss */
 .bubble.x4 .alphabet {
   background-color: #95f4e9;
 }
-/* line 138, ../scss/bubble.scss */
+/* line 153, ../scss/bubble.scss */
 .bubble.x4 .description {
   background-color: #40abb4;
 }
-/* line 141, ../scss/bubble.scss */
+/* line 156, ../scss/bubble.scss */
 .bubble.x4:hover .alphabet {
   background-image: url("../images/avatars/c.jpg");
 }
-/* line 145, ../scss/bubble.scss */
+/* line 160, ../scss/bubble.scss */
 .bubble.x5 {
   left: 60%;
   top: 80%;
@@ -176,16 +194,16 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 152, ../scss/bubble.scss */
+/* line 167, ../scss/bubble.scss */
 .bubble.x5 .alphabet,
 .bubble.x5 .description {
   background-color: #40abb4;
 }
-/* line 156, ../scss/bubble.scss */
+/* line 171, ../scss/bubble.scss */
 .bubble.x5:hover .alphabet {
   background-image: url("../images/avatars/m.jpg");
 }
-/* line 160, ../scss/bubble.scss */
+/* line 175, ../scss/bubble.scss */
 .bubble.x6 {
   left: 60%;
   top: 26%;
@@ -194,23 +212,23 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 167, ../scss/bubble.scss */
+/* line 182, ../scss/bubble.scss */
 .bubble.x6 .alphabet,
 .bubble.x6 .description {
   background-color: #47dccb;
 }
-/* line 171, ../scss/bubble.scss */
+/* line 186, ../scss/bubble.scss */
 .bubble.x6 .description {
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 177, ../scss/bubble.scss */
+/* line 192, ../scss/bubble.scss */
 .bubble.x6:hover .alphabet {
   background-image: url("../images/avatars/k.jpg");
 }
-/* line 180, ../scss/bubble.scss */
+/* line 195, ../scss/bubble.scss */
 .bubble.x6 .more {
   margin-left: -300px;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -218,7 +236,7 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 188, ../scss/bubble.scss */
+/* line 203, ../scss/bubble.scss */
 .bubble.x7 {
   left: 70%;
   top: 60%;
@@ -227,23 +245,23 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 195, ../scss/bubble.scss */
+/* line 210, ../scss/bubble.scss */
 .bubble.x7 .alphabet,
 .bubble.x7 .description {
   background-color: #366695;
 }
-/* line 199, ../scss/bubble.scss */
+/* line 214, ../scss/bubble.scss */
 .bubble.x7 .description {
   -webkit-animation: blow-right 1s ease-in-out;
   -moz-animation: blow-right 1s ease-in-out;
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 205, ../scss/bubble.scss */
+/* line 220, ../scss/bubble.scss */
 .bubble.x7:hover .alphabet {
   background-image: url("../images/avatars/j.jpg");
 }
-/* line 208, ../scss/bubble.scss */
+/* line 223, ../scss/bubble.scss */
 .bubble.x7 .more {
   margin-left: -300px;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -251,7 +269,7 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 216, ../scss/bubble.scss */
+/* line 231, ../scss/bubble.scss */
 .bubble.x8 {
   left: 80%;
   top: 50%;
@@ -260,11 +278,11 @@
   transform: scale(0.8);
   opacity: 0.9;
 }
-/* line 223, ../scss/bubble.scss */
+/* line 238, ../scss/bubble.scss */
 .bubble.x8 .alphabet {
   background-color: #95f4e9;
 }
-/* line 226, ../scss/bubble.scss */
+/* line 241, ../scss/bubble.scss */
 .bubble.x8 .description {
   background-color: #40abb4;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -272,7 +290,7 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 233, ../scss/bubble.scss */
+/* line 248, ../scss/bubble.scss */
 .bubble.x8 .more {
   margin-left: -300px;
   -webkit-animation: blow-right 1s ease-in-out;
@@ -280,7 +298,7 @@
   -o-animation: blow-right 1s ease-in-out;
   animation: blow-right 1s ease-in-out;
 }
-/* line 240, ../scss/bubble.scss */
+/* line 255, ../scss/bubble.scss */
 .bubble.x8:hover .alphabet {
   background-image: url("../images/avatars/z.jpg");
 }
@@ -460,7 +478,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 433, ../scss/bubble.scss */
+  /* line 448, ../scss/bubble.scss */
   .bubble {
     display: none;
   }

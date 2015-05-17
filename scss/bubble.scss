@@ -95,9 +95,24 @@
       background-image: url("../images/avatars/s.jpg");
     }
   }
+  &.x9{
+    left: 25%;
+    top: 70%;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.9;
+    .alphabet,
+    .description{
+      background-color:#366695;
+    }
+    &:hover .alphabet{
+      background-image: url("../images/avatars/a.jpg");
+    }
+  }
   &.x2{
-    left: 20%;
-    top: 80%;
+    left: 10%;
+    top: 70%;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     transform: scale(0.8);

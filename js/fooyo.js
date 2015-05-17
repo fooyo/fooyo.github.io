@@ -128,6 +128,7 @@ $(document).ready(function() {
     var slice=angle/(menuItemNum-1);
     TweenMax.globalTimeScale(0.8);
     var scale = 1;
+    if(window.innerWidth<600) scale = 0.8;
     $(".menu-item").each(function(i){
         var angle=startingAngle+(slice*i);
         $(this).css({
@@ -203,7 +204,7 @@ $(document).ready(function() {
                         onComplete:function(){
                             TweenMax.to($bounce,3,{
                                // scaleX:1,
-                                scaleY:1,
+                                scaleY:0.8,
                                 force3D:true,
                                 ease:Elastic.easeOut,
                                 easeParams:[1.1,0.12]
