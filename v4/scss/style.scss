@@ -157,15 +157,15 @@ body{
         color: #fff;
       }
     }
-    .slider{
+    .bxslider{
       height: 450px;
-      background: #ccc;
+      margin: 0;
     }
   }
   &.services{
      .expertise{
       height: 412px;
-      padding: 80px 25px;
+      padding: 0 25px;
       .title{
         font-size: 42px;
         color: #263248;
@@ -180,6 +180,27 @@ body{
       .description{
         font-size: 18px;
         color: #263248;
+      }
+    }
+    .service{
+      height: 400px;
+      .consulting{
+        width: 33%;
+        height: 400px;
+        float: left;
+        background: #47dccb;
+      }
+      .agile{
+        width: 33%;
+        height: 400px;
+        float: left;
+        background: #40abb4;
+      }
+      .design{
+        width: 33%;
+        height: 400px;
+        float: left;
+        background: #47dccb;
       }
     }
   }
