@@ -1,0 +1,247 @@
+/* line 1, ../scss/fission.scss */
+.blobs {
+  filter: url("../images/blur.svg#goo");
+  -webkit-filter: url("#goo");
+  -moz-filter: url("#goo");
+  -o-filter: url("#goo");
+  -ms-filter: url("#goo");
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+@-webkit-keyframes blob-left-top-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+  }
+  10% {
+    -webkit-transform: scale(1.1) translate(-85px, -85px);
+  }
+  33% {
+    -webkit-transform: scale(0.7) translate(85px, -85px);
+  }
+  62% {
+    -webkit-transform: scale(0.4) translate(170px, 127.5px);
+  }
+  84% {
+    -webkit-transform: scale(0.4) translate(-170px, -85px);
+  }
+  90% {
+    -webkit-transform: scale(0.5) translate(-127.5px, 0);
+  }
+  99% {
+    -webkit-transform: scale(1) translate(0, 42.5px);
+  }
+}
+@keyframes blob-left-top-anim {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  10% {
+    transform: scale(1.1) translate(-85px, -85px);
+  }
+  33% {
+    transform: scale(0.7) translate(85px, -85px);
+  }
+  62% {
+    transform: scale(0.4) translate(170px, 127.5px);
+  }
+  84% {
+    transform: scale(0.4) translate(-170px, -85px);
+  }
+  90% {
+    transform: scale(0.5) translate(-127.5px, 0);
+  }
+  99% {
+    transform: scale(1) translate(0, 42.5px);
+  }
+}
+@-webkit-keyframes blob-right-top-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+  }
+  10% {
+    -webkit-transform: scale(0.7) translate(85px, -85px);
+  }
+  33% {
+    -webkit-transform: scale(0.6) translate(-85px, 85px);
+  }
+  64% {
+    -webkit-transform: scale(0.7) translate(85px, -85px);
+  }
+  78% {
+    -webkit-transform: scale(0.4) translate(85px, -85px);
+  }
+  90% {
+    -webkit-transform: scale(0.5) translate(0, 127.5px);
+  }
+  99% {
+    -webkit-transform: scale(1) translate(0, -42.5px);
+  }
+}
+@keyframes blob-right-top-anim {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  10% {
+    transform: scale(0.7) translate(85px, -85px);
+  }
+  33% {
+    transform: scale(0.6) translate(-85px, 85px);
+  }
+  64% {
+    transform: scale(0.7) translate(85px, -85px);
+  }
+  78% {
+    transform: scale(0.4) translate(85px, -85px);
+  }
+  90% {
+    transform: scale(0.5) translate(0, 127.5px);
+  }
+  99% {
+    transform: scale(1) translate(0, -42.5px);
+  }
+}
+@-webkit-keyframes blob-left-bottom-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+  }
+  10% {
+    -webkit-transform: scale(0.6) translate(-85px, 85px);
+  }
+  33% {
+    -webkit-transform: scale(0.6) translate(85px, 85px);
+  }
+  66% {
+    -webkit-transform: scale(0.6) translate(-85px, 85px);
+  }
+  78% {
+    -webkit-transform: scale(0.4) translate(-85px, 85px);
+  }
+  90% {
+    -webkit-transform: scale(0.5) translate(127.5px, 0);
+  }
+  99% {
+    -webkit-transform: scale(1) translate(42.5px, 0);
+  }
+}
+@keyframes blob-left-bottom-anim {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  10% {
+    transform: scale(0.6) translate(-85px, 85px);
+  }
+  33% {
+    transform: scale(0.6) translate(85px, 85px);
+  }
+  66% {
+    transform: scale(0.6) translate(-85px, 85px);
+  }
+  78% {
+    transform: scale(0.4) translate(-85px, 85px);
+  }
+  90% {
+    transform: scale(0.5) translate(127.5px, 0);
+  }
+  99% {
+    transform: scale(1) translate(42.5px, 0);
+  }
+}
+@-webkit-keyframes blob-right-bottom-anim {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+  }
+  10% {
+    -webkit-transform: scale(0.4) translate(170px, 127.5px);
+  }
+  33% {
+    -webkit-transform: scale(1.1) translate(-85px, -85px);
+  }
+  68% {
+    -webkit-transform: scale(1.1) translate(-85px, -85px);
+  }
+  80% {
+    -webkit-transform: scale(0.4) translate(170px, 170px);
+  }
+  90% {
+    -webkit-transform: scale(0.5) translate(0, -127.5px);
+  }
+  99% {
+    -webkit-transform: scale(1) translate(-42.5px, 0);
+  }
+}
+@keyframes blob-right-bottom-anim {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  10% {
+    transform: scale(0.4) translate(170px, 127.5px);
+  }
+  33% {
+    transform: scale(1.1) translate(-85px, -85px);
+  }
+  68% {
+    transform: scale(1.1) translate(-85px, -85px);
+  }
+  80% {
+    transform: scale(0.4) translate(170px, 170px);
+  }
+  90% {
+    transform: scale(0.5) translate(0, -127.5px);
+  }
+  99% {
+    transform: scale(1) translate(-42.5px, 0);
+  }
+}
+/* line 199, ../scss/fission.scss */
+.blob {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  line-height: 140px;
+  height: 140px;
+  margin-top: -70px;
+  margin-left: -70px;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  animation: blob-left-top-anim cubic-bezier(0.77, 0, 0.175, 1) 10s infinite;
+  -webkit-animation: blob-left-top-anim cubic-bezier(0.77, 0, 0.175, 1) 10s infinite;
+}
+/* line 215, ../scss/fission.scss */
+.blob.blob1 {
+  background: #366695;
+}
+/* line 218, ../scss/fission.scss */
+.blob.blob2 {
+  background: #47dccb;
+}
+/* line 221, ../scss/fission.scss */
+.blob.blob3 {
+  background: #40abb4;
+}
+/* line 224, ../scss/fission.scss */
+.blob.blob4 {
+  background: #95f4e9;
+}
+/* line 227, ../scss/fission.scss */
+.blob:nth-child(2) {
+  -webkit-animation-name: blob-right-top-anim;
+  animation-name: blob-right-top-anim;
+}
+/* line 231, ../scss/fission.scss */
+.blob:nth-child(3) {
+  -webkit-animation-name: blob-left-bottom-anim;
+  animation-name: blob-left-bottom-anim;
+}
+/* line 235, ../scss/fission.scss */
+.blob:nth-child(4) {
+  -webkit-animation-name: blob-right-bottom-anim;
+  animation-name: blob-right-bottom-anim;
+}

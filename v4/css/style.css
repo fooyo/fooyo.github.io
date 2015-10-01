@@ -1,0 +1,391 @@
+/* line 5, ../scss/style.scss */
+body {
+  background: #fff;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+/* line 10, ../scss/style.scss */
+#header {
+  height: 76px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+}
+/* line 17, ../scss/style.scss */
+#header .top {
+  background: #95f4e9;
+  height: 18px;
+  text-align: right;
+  padding-right: 40px;
+}
+/* line 22, ../scss/style.scss */
+#header .top a {
+  font-size: 11px;
+  color: #cbcbcb;
+  display: inline-block;
+  text-decoration: none;
+}
+/* line 27, ../scss/style.scss */
+#header .top a.active {
+  color: #366695;
+}
+/* line 32, ../scss/style.scss */
+#header .logo {
+  width: 100px;
+  height: 55px;
+  float: left;
+  cursor: pointer;
+  padding: 0 8px;
+}
+/* line 38, ../scss/style.scss */
+#header .logo img {
+  height: 55px;
+}
+/* line 42, ../scss/style.scss */
+#header ul {
+  text-align: right;
+  margin: 0;
+  padding: 16px;
+  height: 66px;
+}
+/* line 47, ../scss/style.scss */
+#header ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+}
+/* line 51, ../scss/style.scss */
+#header ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #cbcbcb;
+}
+/* line 53, ../scss/style.scss */
+#header ul li a.active {
+  border-top-style: solid;
+  border-width: 6px;
+  border-color: #366695;
+  color: #263248;
+}
+/* line 64, ../scss/style.scss */
+#header #toggle {
+  display: none;
+  width: 55px;
+  height: 55px;
+  background: url(../images/toggle.png) no-repeat center;
+  float: right;
+  cursor: pointer;
+}
+
+/* line 73, ../scss/style.scss */
+#menu {
+  width: 30%;
+  min-width: 200px;
+  height: 100%;
+  background: #1D2636;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  display: none;
+}
+/* line 82, ../scss/style.scss */
+#menu #close {
+  width: 57px;
+  height: 57px;
+  background: url(../images/cross.png) no-repeat;
+  background-size: 24px 24px;
+  position: fixed;
+  right: 0;
+  top: 20px;
+  cursor: pointer;
+}
+/* line 92, ../scss/style.scss */
+#menu ul {
+  margin-top: 80%;
+}
+/* line 94, ../scss/style.scss */
+#menu ul li {
+  margin: 14px;
+  list-style: none;
+  text-align: right;
+}
+/* line 98, ../scss/style.scss */
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 108, ../scss/style.scss */
+.section.home .rotator {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  color: #356594;
+  position: absolute;
+  left: 25px;
+  bottom: 80px;
+  font-size: 36px;
+  opacity: 0;
+  left: 25px;
+  top: -webkit-calc(50% - 36px);
+  top: calc(50% - 36px);
+}
+/* line 121, ../scss/style.scss */
+.section.home .icon-next {
+  background: url(../images/arrow.png) no-repeat;
+  width: 56px;
+  height: 19px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: -webkit-calc(50% - 28px);
+  left: calc(50% - 28px);
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+  -ms-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+/* line 134, ../scss/style.scss */
+.section.home .icon-next:hover {
+  cursor: pointer;
+}
+/* line 140, ../scss/style.scss */
+.section.aboutUs .who {
+  background: #366695;
+  height: 240px;
+  padding: 80px 25px;
+}
+/* line 144, ../scss/style.scss */
+.section.aboutUs .who .title {
+  font-size: 42px;
+  color: #fff;
+}
+/* line 147, ../scss/style.scss */
+.section.aboutUs .who .title span {
+  color: #95F4E9;
+}
+/* line 151, ../scss/style.scss */
+.section.aboutUs .who .sub-title {
+  font-size: 28px;
+  color: #fff;
+}
+/* line 155, ../scss/style.scss */
+.section.aboutUs .who .description {
+  font-size: 18px;
+  color: #fff;
+}
+/* line 160, ../scss/style.scss */
+.section.aboutUs .slider {
+  height: 450px;
+  background: #ccc;
+}
+/* line 166, ../scss/style.scss */
+.section.services .expertise {
+  height: 412px;
+  padding: 80px 25px;
+}
+/* line 169, ../scss/style.scss */
+.section.services .expertise .title {
+  font-size: 42px;
+  color: #263248;
+}
+/* line 172, ../scss/style.scss */
+.section.services .expertise .title span {
+  color: #95F4E9;
+}
+/* line 176, ../scss/style.scss */
+.section.services .expertise .sub-title {
+  font-size: 28px;
+  color: #263248;
+}
+/* line 180, ../scss/style.scss */
+.section.services .expertise .description {
+  font-size: 18px;
+  color: #263248;
+}
+/* line 187, ../scss/style.scss */
+.section.works .case {
+  background: #366695;
+  height: 240px;
+  padding: 80px 25px;
+}
+/* line 191, ../scss/style.scss */
+.section.works .case .title {
+  font-size: 42px;
+  color: #fff;
+}
+/* line 194, ../scss/style.scss */
+.section.works .case .title span {
+  color: #95F4E9;
+}
+/* line 198, ../scss/style.scss */
+.section.works .case .sub-title {
+  font-size: 28px;
+  color: #fff;
+}
+/* line 202, ../scss/style.scss */
+.section.works .case .description {
+  font-size: 18px;
+  color: #fff;
+}
+/* line 208, ../scss/style.scss */
+.section.contact {
+  background: -webkit-linear-gradient(#437AA1, #356594);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#437AA1, #356594);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#437AA1, #356594);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#437AA1, #356594);
+  /* Standard syntax */
+}
+/* line 213, ../scss/style.scss */
+.section.contact .top-line {
+  width: 1px;
+  height: 30%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+/* line 221, ../scss/style.scss */
+.section.contact .dot {
+  margin: 0 auto;
+  position: absolute;
+  left: -webkit-calc(50% - 7px);
+  left: calc(50% - 7px);
+  top: -webkit-calc(50% - 7px);
+  top: calc(50% - 7px);
+}
+/* line 227, ../scss/style.scss */
+.section.contact .lower-line {
+  width: 1px;
+  height: 20%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+}
+/* line 236, ../scss/style.scss */
+.section.contact .sns {
+  width: 100%;
+  text-align: center;
+  height: 68px;
+  position: absolute;
+  top: 70%;
+  z-index: 1000;
+}
+/* line 243, ../scss/style.scss */
+.section.contact .sns a {
+  text-decoration: none;
+  line-height: 30px;
+  color: #fff;
+}
+/* line 247, ../scss/style.scss */
+.section.contact .sns a.icon {
+  display: inline-block;
+  curosr: pointer;
+  width: 30px;
+  height: 40px;
+  background: url(../images/sns.png);
+}
+/* line 253, ../scss/style.scss */
+.section.contact .sns a.icon.li {
+  background-position: -34px 0;
+}
+/* line 256, ../scss/style.scss */
+.section.contact .sns a.icon.fb {
+  background-position: -64px 0;
+}
+/* line 262, ../scss/style.scss */
+.section.contact .title {
+  top: 34%;
+}
+/* line 265, ../scss/style.scss */
+.section.contact .line {
+  padding-top: 40%;
+  height: 20%;
+}
+
+/* line 271, ../scss/style.scss */
+#case {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+/* line 279, ../scss/style.scss */
+#case iframe {
+  position: absolute;
+  border: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 100;
+  overflow-y: scroll;
+}
+/* line 289, ../scss/style.scss */
+#case #cancel {
+  width: 57px;
+  height: 57px;
+  background: url(../images/cross.png) no-repeat;
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  z-index: 200;
+  cursor: pointer;
+}
+
+/* line 300, ../scss/style.scss */
+#serviceContainer {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 304, ../scss/style.scss */
+  #header ul {
+    display: none;
+  }
+
+  /* line 307, ../scss/style.scss */
+  #toggle {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 312, ../scss/style.scss */
+  .section.aboutUs .upper-line {
+    padding-top: 50px;
+  }
+
+  /* line 315, ../scss/style.scss */
+  .section.services #serviceContainer .service {
+    padding: 10px !important;
+  }
+}
+/* line 320, ../scss/style.scss */
+.section.aboutUs {
+  display: none;
+}
+/* line 323, ../scss/style.scss */
+.section.services {
+  display: none;
+}
+/* line 326, ../scss/style.scss */
+.section.works {
+  display: none;
+}
+/* line 329, ../scss/style.scss */
+.section.contact {
+  display: none;
+}

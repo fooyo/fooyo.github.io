@@ -1,0 +1,423 @@
+/* line 1, ../scss/static.scss */
+.bubbles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+}
+
+/* line 10, ../scss/static.scss */
+.bubble {
+  position: absolute;
+  display: table;
+  top: 40%;
+}
+/* line 14, ../scss/static.scss */
+.bubble .alphabet {
+  display: inline-block;
+  line-height: 80px;
+  text-align: center;
+  width: 80px;
+  font-size: 24px;
+  color: #fff;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 100;
+  position: relative;
+}
+/* line 26, ../scss/static.scss */
+.bubble .more {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 80px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  display: none;
+}
+/* line 36, ../scss/static.scss */
+.bubble .more .description {
+  display: none;
+}
+/* line 40, ../scss/static.scss */
+.bubble:hover {
+  opacity: 1 !important;
+}
+/* line 42, ../scss/static.scss */
+.bubble:hover .more {
+  display: block !important;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s;
+}
+/* line 47, ../scss/static.scss */
+.bubble:hover .description {
+  display: table-cell !important;
+  background-size: 200px 200px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  line-height: 30px;
+  color: #fff;
+}
+/* line 59, ../scss/static.scss */
+.bubble:hover .description .name {
+  font-size: 14px;
+  dipslay: none;
+}
+/* line 63, ../scss/static.scss */
+.bubble:hover .description .detail {
+  font-size: 12px;
+  display: none;
+}
+/* line 69, ../scss/static.scss */
+.bubble.x1 {
+  left: 10%;
+  top: 30%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 76, ../scss/static.scss */
+.bubble.x1 .alphabet,
+.bubble.x1 .description {
+  background-color: #366695;
+}
+/* line 80, ../scss/static.scss */
+.bubble.x1 .more {
+  background-image: url("../images/avatars/s.jpg");
+}
+/* line 84, ../scss/static.scss */
+.bubble.x2 {
+  left: 20%;
+  top: 50%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 91, ../scss/static.scss */
+.bubble.x2 .alphabet,
+.bubble.x2 .description {
+  background-color: #47dccb;
+}
+/* line 95, ../scss/static.scss */
+.bubble.x2 .more {
+  background-image: url("../images/avatars/y.jpg");
+}
+/* line 99, ../scss/static.scss */
+.bubble.x3 {
+  left: 20%;
+  top: 70%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 106, ../scss/static.scss */
+.bubble.x3 .alphabet,
+.bubble.x3 .description {
+  background-color: rgba(64, 171, 180, 0.8);
+}
+/* line 110, ../scss/static.scss */
+.bubble.x3 .more {
+  background-image: url("../images/avatars/q.jpg");
+}
+/* line 114, ../scss/static.scss */
+.bubble.x4 {
+  left: 10%;
+  top: 60%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 121, ../scss/static.scss */
+.bubble.x4 .alphabet {
+  background-color: #95f4e9;
+}
+/* line 124, ../scss/static.scss */
+.bubble.x4 .description {
+  background-color: #40abb4;
+}
+/* line 127, ../scss/static.scss */
+.bubble.x4 .more {
+  background-image: url("../images/avatars/c.jpg");
+}
+/* line 131, ../scss/static.scss */
+.bubble.x5 {
+  left: 60%;
+  top: 20%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 138, ../scss/static.scss */
+.bubble.x5 .alphabet,
+.bubble.x5 .description {
+  background-color: #40abb4;
+}
+/* line 142, ../scss/static.scss */
+.bubble.x5 .more {
+  background-image: url("../images/avatars/m.jpg");
+}
+/* line 146, ../scss/static.scss */
+.bubble.x6 {
+  left: 60%;
+  top: 70%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 153, ../scss/static.scss */
+.bubble.x6 .alphabet,
+.bubble.x6 .description {
+  background-color: #47dccb;
+}
+/* line 159, ../scss/static.scss */
+.bubble.x6 .more {
+  background-image: url("../images/avatars/k.jpg");
+}
+/* line 162, ../scss/static.scss */
+.bubble.x6 .more {
+  margin-left: -300px;
+}
+/* line 166, ../scss/static.scss */
+.bubble.x7 {
+  left: 70%;
+  top: 40%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 173, ../scss/static.scss */
+.bubble.x7 .alphabet,
+.bubble.x7 .description {
+  background-color: #366695;
+}
+/* line 179, ../scss/static.scss */
+.bubble.x7 .more {
+  background-image: url("../images/avatars/j.jpg");
+}
+/* line 182, ../scss/static.scss */
+.bubble.x7 .more {
+  margin-left: -300px;
+}
+/* line 186, ../scss/static.scss */
+.bubble.x8 {
+  left: 80%;
+  top: 20%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 193, ../scss/static.scss */
+.bubble.x8 .alphabet {
+  background-color: #95f4e9;
+}
+/* line 196, ../scss/static.scss */
+.bubble.x8 .description {
+  background-color: #40abb4;
+}
+/* line 199, ../scss/static.scss */
+.bubble.x8 .more {
+  margin-left: -300px;
+}
+/* line 202, ../scss/static.scss */
+.bubble.x8 .more {
+  background-image: url("../images/avatars/z.jpg");
+}
+
+@-webkit-keyframes moveclouds {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+@-webkit-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
+  }
+}
+@-webkit-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -300px;
+    color: #fff;
+  }
+}
+@-moz-keyframes moveclouds {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+@-moz-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  90% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
+  }
+}
+@-moz-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -300px;
+    color: #fff;
+  }
+}
+@-o-keyframes moveclouds {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-o-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+@-o-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
+  }
+}
+@-o-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -300px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 395, ../scss/static.scss */
+  .bubble {
+    left: 10% !important;
+  }
+}

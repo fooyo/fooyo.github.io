@@ -1,0 +1,508 @@
+/* line 1, ../scss/bubble.scss */
+.bubbles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+}
+
+/* line 10, ../scss/bubble.scss */
+.bubble {
+  position: absolute;
+  display: table;
+  top: 100%;
+}
+/* line 14, ../scss/bubble.scss */
+.bubble .alphabet {
+  display: inline-block;
+  line-height: 80px;
+  text-align: center;
+  width: 80px;
+  font-size: 24px;
+  color: #fff;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 100;
+  position: relative;
+}
+/* line 26, ../scss/bubble.scss */
+.bubble .more {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-top: -240px;
+  margin-left: 80px;
+}
+/* line 33, ../scss/bubble.scss */
+.bubble .more .description {
+  display: none;
+}
+/* line 37, ../scss/bubble.scss */
+.bubble:hover {
+  opacity: 1 !important;
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -o-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+/* line 39, ../scss/bubble.scss */
+.bubble:hover .more {
+  display: table !important;
+  -webkit-animation: blow 1s ease-in-out;
+  -moz-animation: blow 1s ease-in-out;
+  -o-animation: blow 1s ease-in-out;
+  animation: blow 1s ease-in-out;
+}
+/* line 46, ../scss/bubble.scss */
+.bubble:hover .description {
+  display: table-cell !important;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  line-height: 30px;
+  color: #fff;
+  -webkit-animation: blow 1s ease-in-out;
+  -moz-animation: blow 1s ease-in-out;
+  -o-animation: blow 1s ease-in-out;
+  animation: blow 1s ease-in-out;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 63, ../scss/bubble.scss */
+.bubble:hover .description .name {
+  font-size: 14px;
+}
+/* line 66, ../scss/bubble.scss */
+.bubble:hover .description .detail {
+  font-size: 12px;
+}
+/* line 70, ../scss/bubble.scss */
+.bubble:hover .alphabet {
+  width: 120px;
+  height: 120px;
+  margin-left: -20px;
+  margin-top: -20px;
+  text-indent: -9999px;
+  background-size: 120px 120px;
+}
+/* line 83, ../scss/bubble.scss */
+.bubble.x1 {
+  left: 20%;
+  top: 70%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 90, ../scss/bubble.scss */
+.bubble.x1 .alphabet,
+.bubble.x1 .description {
+  background-color: #366695;
+}
+/* line 94, ../scss/bubble.scss */
+.bubble.x1:hover .alphabet {
+  background-image: url("../images/avatars/s.jpg");
+}
+/* line 98, ../scss/bubble.scss */
+.bubble.x9 {
+  left: 10%;
+  top: 30%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 105, ../scss/bubble.scss */
+.bubble.x9 .alphabet,
+.bubble.x9 .description {
+  background-color: #366695;
+}
+/* line 109, ../scss/bubble.scss */
+.bubble.x9:hover .alphabet {
+  background-image: url("../images/avatars/a.jpg");
+}
+/* line 113, ../scss/bubble.scss */
+.bubble.x2 {
+  left: 10%;
+  top: 70%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 120, ../scss/bubble.scss */
+.bubble.x2 .alphabet,
+.bubble.x2 .description {
+  background-color: #47dccb;
+}
+/* line 124, ../scss/bubble.scss */
+.bubble.x2:hover .alphabet {
+  background-image: url("../images/avatars/y.jpg");
+}
+/* line 128, ../scss/bubble.scss */
+.bubble.x3 {
+  left: 20%;
+  top: 50%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 135, ../scss/bubble.scss */
+.bubble.x3 .alphabet,
+.bubble.x3 .description {
+  background-color: rgba(64, 171, 180, 0.8);
+}
+/* line 139, ../scss/bubble.scss */
+.bubble.x3:hover .alphabet {
+  background-image: url("../images/avatars/q.jpg");
+}
+/* line 143, ../scss/bubble.scss */
+.bubble.x4 {
+  left: 0%;
+  top: 60%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 150, ../scss/bubble.scss */
+.bubble.x4 .alphabet {
+  background-color: #95f4e9;
+}
+/* line 153, ../scss/bubble.scss */
+.bubble.x4 .description {
+  background-color: #40abb4;
+}
+/* line 156, ../scss/bubble.scss */
+.bubble.x4:hover .alphabet {
+  background-image: url("../images/avatars/c.jpg");
+}
+/* line 160, ../scss/bubble.scss */
+.bubble.x5 {
+  left: 70%;
+  top: 70%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 167, ../scss/bubble.scss */
+.bubble.x5 .alphabet,
+.bubble.x5 .description {
+  background-color: #40abb4;
+}
+/* line 171, ../scss/bubble.scss */
+.bubble.x5 .description {
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 178, ../scss/bubble.scss */
+.bubble.x5:hover .alphabet {
+  background-image: url("../images/avatars/m.jpg");
+}
+/* line 181, ../scss/bubble.scss */
+.bubble.x5 .more {
+  margin-left: -300px;
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 190, ../scss/bubble.scss */
+.bubble.x6 {
+  left: 60%;
+  top: 26%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 197, ../scss/bubble.scss */
+.bubble.x6 .alphabet,
+.bubble.x6 .description {
+  background-color: #47dccb;
+}
+/* line 201, ../scss/bubble.scss */
+.bubble.x6 .description {
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 208, ../scss/bubble.scss */
+.bubble.x6:hover .alphabet {
+  background-image: url("../images/avatars/k.jpg");
+}
+/* line 211, ../scss/bubble.scss */
+.bubble.x6 .more {
+  margin-left: -300px;
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 220, ../scss/bubble.scss */
+.bubble.x7 {
+  left: 70%;
+  top: 40%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 227, ../scss/bubble.scss */
+.bubble.x7 .alphabet,
+.bubble.x7 .description {
+  background-color: #366695;
+}
+/* line 231, ../scss/bubble.scss */
+.bubble.x7 .description {
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 238, ../scss/bubble.scss */
+.bubble.x7:hover .alphabet {
+  background-image: url("../images/avatars/j.jpg");
+}
+/* line 241, ../scss/bubble.scss */
+.bubble.x7 .more {
+  margin-left: -300px;
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 250, ../scss/bubble.scss */
+.bubble.x8 {
+  left: 80%;
+  top: 50%;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.9;
+}
+/* line 257, ../scss/bubble.scss */
+.bubble.x8 .alphabet {
+  background-color: #95f4e9;
+}
+/* line 260, ../scss/bubble.scss */
+.bubble.x8 .description {
+  background-color: #40abb4;
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 268, ../scss/bubble.scss */
+.bubble.x8 .more {
+  margin-left: -300px;
+  -webkit-animation: blow-right 1s ease-in-out;
+  -moz-animation: blow-right 1s ease-in-out;
+  -o-animation: blow-right 1s ease-in-out;
+  -ms-animation: blow-right 1s ease-in-out;
+  animation: blow-right 1s ease-in-out;
+}
+/* line 276, ../scss/bubble.scss */
+.bubble.x8:hover .alphabet {
+  background-image: url("../images/avatars/z.jpg");
+}
+
+@-webkit-keyframes moveclouds {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+@-webkit-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
+  }
+}
+@-webkit-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -300px;
+    color: #fff;
+  }
+}
+@-moz-keyframes moveclouds {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+@-moz-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  90% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
+  }
+}
+@-moz-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -300px;
+    color: #fff;
+  }
+}
+@-o-keyframes moveclouds {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-o-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+@-o-keyframes blow {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -40px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: 80px;
+    color: #fff;
+  }
+}
+@-o-keyframes blow-right {
+  0% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    margin-left: -100px;
+    color: transparent;
+  }
+  95% {
+    color: transparent;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-top: -240px;
+    margin-left: -300px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 469, ../scss/bubble.scss */
+  .bubble {
+    display: none;
+  }
+}

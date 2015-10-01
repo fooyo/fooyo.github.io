@@ -1,0 +1,78 @@
+/* line 1, ../scss/case.scss */
+body {
+  background-color: rgba(54, 102, 149, 0.9);
+  color: #fff;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+/* line 6, ../scss/case.scss */
+body .container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 15% auto;
+}
+/* line 10, ../scss/case.scss */
+body .container .left {
+  width: 50%;
+  float: left;
+}
+/* line 13, ../scss/case.scss */
+body .container .left img {
+  width: 400px;
+  display: table-cell;
+  margin: 10% auto;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+/* line 19, ../scss/case.scss */
+body .container .left img:hover {
+  width: 450px;
+}
+/* line 24, ../scss/case.scss */
+body .container .right {
+  width: 50%;
+  float: left;
+}
+/* line 27, ../scss/case.scss */
+body .container .right .title {
+  margin: 16px 0;
+  padding: 0 40px;
+}
+/* line 30, ../scss/case.scss */
+body .container .right .title a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: underline;
+}
+/* line 36, ../scss/case.scss */
+body .container .right .sub-title {
+  padding: 0 40px;
+}
+/* line 39, ../scss/case.scss */
+body .container .right .details {
+  padding: 0 40px;
+  line-height: 20px;
+  margin-top: 50px;
+  text-align: justify;
+}
+/* line 44, ../scss/case.scss */
+body .container .right .details a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 55, ../scss/case.scss */
+  body .container .left {
+    width: 100%;
+    margin-top: 50px;
+  }
+  /* line 58, ../scss/case.scss */
+  body .container .left img {
+    width: 300px;
+  }
+  /* line 62, ../scss/case.scss */
+  body .container .right {
+    width: 100%;
+  }
+}
