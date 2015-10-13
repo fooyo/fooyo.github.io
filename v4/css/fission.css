@@ -1,6 +1,6 @@
 /* line 1, ../scss/fission.scss */
 .blobs {
-  filter: url("../images/blur.svg#goo");
+  filter: url("http://labs.fooyo.sg/v4/images/blur.svg#goo");
   -webkit-filter: url("#goo");
   -moz-filter: url("#goo");
   -o-filter: url("#goo");
